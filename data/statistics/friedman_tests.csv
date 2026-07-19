@@ -1,0 +1,4 @@
+metric,paired_unit,n_units,methods,statistic,p_value,note
+ndcg@10,dataset-budget-seed,112,"bm25,dense,rrf,zscore_fusion,minmax_fusion,validation_weighted_fusion",332.37207508356875,1.0901607674849179e-69,Friedman repeated-measures test across methods
+mrr@10,dataset-budget-seed,112,"bm25,dense,rrf,zscore_fusion,minmax_fusion,validation_weighted_fusion",322.912059655438,1.183071214658798e-67,Friedman repeated-measures test across methods
+recall@100,dataset-budget-seed,112,"bm25,dense,rrf,zscore_fusion,minmax_fusion,validation_weighted_fusion",318.8113975576661,9.019541133576276e-67,Friedman repeated-measures test across methods

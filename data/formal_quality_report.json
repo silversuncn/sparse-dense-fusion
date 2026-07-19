@@ -1,0 +1,25 @@
+{
+  "actual_cell_count": 672,
+  "criteria": {
+    "fusion_reduces_average_regret_majority": true,
+    "no_systematic_severe_degradation": true,
+    "rrf_or_validation_weighted_supports_two_datasets": true
+  },
+  "expected_cell_count": 672,
+  "failure_count": 0,
+  "formal_execution_status": "PASS",
+  "matrix_note": {
+    "corpus_docs": 522931,
+    "dataset": "quora",
+    "decision": "exclude_from_formal_runner",
+    "elapsed_sec": 5.218670845031738,
+    "qrels_queries": 10000,
+    "queries": 15000,
+    "reason": "current dense runner embeds the full corpus for each dataset; Quora full corpus is too large for the bounded Phase3 batch, so a public BEIR replacement is required by switch.md.",
+    "split": "test",
+    "status": "FETCHED_METADATA"
+  },
+  "pilot_style_quality_gate_pass": true,
+  "selected_gate_method": "validation_weighted_fusion",
+  "severe_degradation_datasets": []
+}

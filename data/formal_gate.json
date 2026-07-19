@@ -1,0 +1,4458 @@
+{
+  "cell_summaries": [
+    {
+      "average_single_mrr@10": 0.23340477061662573,
+      "average_single_ndcg@10": 0.355019709587555,
+      "best_single_mrr@10": 0.24239280051574236,
+      "best_single_ndcg@10": 0.36743392679644293,
+      "budget": 20,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.023362169602564764,
+          "ndcg_improvement_vs_average_single": 0.029911849241484212,
+          "ndcg_regret_vs_best_single": -0.0174976320325963,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7047416578174956
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.019804244420051242,
+          "ndcg_improvement_vs_average_single": 0.026244966233633926,
+          "ndcg_regret_vs_best_single": -0.013830749024746014,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.5570528045394574
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.022818549300437307,
+          "ndcg_improvement_vs_average_single": 0.029241827867885817,
+          "ndcg_regret_vs_best_single": -0.016827610658997905,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.677755607778082
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02125607652501177,
+          "ndcg_improvement_vs_average_single": 0.027657024329098223,
+          "ndcg_regret_vs_best_single": -0.015242807120210311,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.613925423718915
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.24070509469795967,
+      "average_single_ndcg@10": 0.3638347158135322,
+      "best_single_mrr@10": 0.24968375934347392,
+      "best_single_ndcg@10": 0.37455470998014745,
+      "budget": 20,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.022838368790619096,
+          "ndcg_improvement_vs_average_single": 0.028222550178075956,
+          "ndcg_regret_vs_best_single": -0.017502556011460724,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8163510044608115
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02128417228581883,
+          "ndcg_improvement_vs_average_single": 0.027528525588991215,
+          "ndcg_regret_vs_best_single": -0.016808531422375983,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7839804369820478
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.022814846758315493,
+          "ndcg_improvement_vs_average_single": 0.02818483946970074,
+          "ndcg_regret_vs_best_single": -0.017464845303085508,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.814592108523505
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.020735324865401722,
+          "ndcg_improvement_vs_average_single": 0.027144896785478823,
+          "ndcg_regret_vs_best_single": -0.01642490261886359,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7660872927531492
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.2337595612705382,
+      "average_single_ndcg@10": 0.35582222843972533,
+      "best_single_mrr@10": 0.24386684787343405,
+      "best_single_ndcg@10": 0.3697386221488832,
+      "budget": 20,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.025358275399438968,
+          "ndcg_improvement_vs_average_single": 0.033388375808974136,
+          "ndcg_regret_vs_best_single": -0.019471982099816265,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6996058931202307
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.020860775704354184,
+          "ndcg_improvement_vs_average_single": 0.02844758518501339,
+          "ndcg_regret_vs_best_single": -0.01453119147585552,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.52208897576292
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.023952616172704,
+          "ndcg_improvement_vs_average_single": 0.033137231063208594,
+          "ndcg_regret_vs_best_single": -0.019220837354050724,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.690582551620476
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.023985721255205372,
+          "ndcg_improvement_vs_average_single": 0.031944949751042395,
+          "ndcg_regret_vs_best_single": -0.018028556041884525,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6477452570927418
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.23878521770947675,
+      "average_single_ndcg@10": 0.3619194551151842,
+      "best_single_mrr@10": 0.2493392051295454,
+      "best_single_ndcg@10": 0.3749441756876676,
+      "budget": 20,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.024473367832314075,
+          "ndcg_improvement_vs_average_single": 0.03058243494211893,
+          "ndcg_regret_vs_best_single": -0.017557714369635546,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6740150113749392
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.022517118812398762,
+          "ndcg_improvement_vs_average_single": 0.028827407038897912,
+          "ndcg_regret_vs_best_single": -0.01580268646641453,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6066420534118804
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.025160298294217065,
+          "ndcg_improvement_vs_average_single": 0.03111300638817366,
+          "ndcg_regret_vs_best_single": -0.018088285815690275,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6943828742823261
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02336173400937397,
+          "ndcg_improvement_vs_average_single": 0.03002246391068003,
+          "ndcg_regret_vs_best_single": -0.016997743338196647,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6525185413231394
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.23209145714634188,
+      "average_single_ndcg@10": 0.35283210199091763,
+      "best_single_mrr@10": 0.2382398550345861,
+      "best_single_ndcg@10": 0.3620866042071543,
+      "budget": 20,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.02554623386127225,
+          "ndcg_improvement_vs_average_single": 0.03386425510394325,
+          "ndcg_regret_vs_best_single": -0.024609752887706615,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.3296097571044885
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02061314097538025,
+          "ndcg_improvement_vs_average_single": 0.027369374417655024,
+          "ndcg_regret_vs_best_single": -0.018114872201418386,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9787059194624566
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.01774432422072378,
+          "ndcg_improvement_vs_average_single": 0.025007213547389717,
+          "ndcg_regret_vs_best_single": -0.01575271133115308,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.851083665176267
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.0250553203352325,
+          "ndcg_improvement_vs_average_single": 0.033364791041222974,
+          "ndcg_regret_vs_best_single": -0.024110288824986337,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.302624833926017
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.24166318192114022,
+      "average_single_ndcg@10": 0.36348443190011137,
+      "best_single_mrr@10": 0.24953435087902706,
+      "best_single_ndcg@10": 0.37431903204751976,
+      "budget": 20,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.022847734044221413,
+          "ndcg_improvement_vs_average_single": 0.030044773117562262,
+          "ndcg_regret_vs_best_single": -0.01921017297015387,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8865197011792285
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.021222971442510397,
+          "ndcg_improvement_vs_average_single": 0.027806727345231375,
+          "ndcg_regret_vs_best_single": -0.016972127197822984,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7832373584124668
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.022234418831564795,
+          "ndcg_improvement_vs_average_single": 0.029720667599846595,
+          "ndcg_regret_vs_best_single": -0.018886067452438204,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.87156273399511
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.021786193438224133,
+          "ndcg_improvement_vs_average_single": 0.029803490738201988,
+          "ndcg_regret_vs_best_single": -0.018968890590793597,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8753848934300938
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.23486814594114264,
+      "average_single_ndcg@10": 0.3585318049835874,
+      "best_single_mrr@10": 0.24183349885874583,
+      "best_single_ndcg@10": 0.36841188116981805,
+      "budget": 20,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.024247077169689712,
+          "ndcg_improvement_vs_average_single": 0.03000774039937182,
+          "ndcg_regret_vs_best_single": -0.02012766421314116,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.018598633945355
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.022574834910180697,
+          "ndcg_improvement_vs_average_single": 0.03017409104923241,
+          "ndcg_regret_vs_best_single": -0.020294014863001753,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.027017124183944
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.017625625076228835,
+          "ndcg_improvement_vs_average_single": 0.022781004806885496,
+          "ndcg_regret_vs_best_single": -0.012900928620654839,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6528759686405143
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.023719138222431324,
+          "ndcg_improvement_vs_average_single": 0.02968445904912137,
+          "ndcg_regret_vs_best_single": -0.019804382862890713,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.002238367882782
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.23340477061662573,
+      "average_single_ndcg@10": 0.355019709587555,
+      "best_single_mrr@10": 0.24239280051574236,
+      "best_single_ndcg@10": 0.36743392679644293,
+      "budget": 50,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.0268059693690868,
+          "ndcg_improvement_vs_average_single": 0.03472493398611892,
+          "ndcg_regret_vs_best_single": -0.02231071677723101,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8985953927589465
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.0194897461362884,
+          "ndcg_improvement_vs_average_single": 0.025280210989113372,
+          "ndcg_regret_vs_best_single": -0.01286599378022546,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.51819593469873
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.026719721917306982,
+          "ndcg_improvement_vs_average_single": 0.03469298068474269,
+          "ndcg_regret_vs_best_single": -0.02227876347585478,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.89730842875475
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02078781384489392,
+          "ndcg_improvement_vs_average_single": 0.02714120706275741,
+          "ndcg_regret_vs_best_single": -0.014726989853869499,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.593150160258424
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.24070509469795967,
+      "average_single_ndcg@10": 0.3638347158135322,
+      "best_single_mrr@10": 0.24968375934347392,
+      "best_single_ndcg@10": 0.37455470998014745,
+      "budget": 50,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.02730276340320245,
+          "ndcg_improvement_vs_average_single": 0.03392090250525048,
+          "ndcg_regret_vs_best_single": -0.02320090833863525,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0821325076318042
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.021475397696583215,
+          "ndcg_improvement_vs_average_single": 0.027275762395591097,
+          "ndcg_regret_vs_best_single": -0.016555768228975865,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7721911025163963
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.02744302441064242,
+          "ndcg_improvement_vs_average_single": 0.03339356047383546,
+          "ndcg_regret_vs_best_single": -0.022673566307220228,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.057536317409178
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.021681868869025872,
+          "ndcg_improvement_vs_average_single": 0.028089530977521315,
+          "ndcg_regret_vs_best_single": -0.017369536810906083,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8101467473274961
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.2337595612705382,
+      "average_single_ndcg@10": 0.35582222843972533,
+      "best_single_mrr@10": 0.24386684787343405,
+      "best_single_ndcg@10": 0.3697386221488832,
+      "budget": 50,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.02858253619779416,
+          "ndcg_improvement_vs_average_single": 0.037329502803847836,
+          "ndcg_regret_vs_best_single": -0.023413109094689966,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8412060474863794
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02144969769832561,
+          "ndcg_improvement_vs_average_single": 0.02963597864111084,
+          "ndcg_regret_vs_best_single": -0.015719584931952968,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.5647865840993171
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.028081604028365847,
+          "ndcg_improvement_vs_average_single": 0.03717861419599994,
+          "ndcg_regret_vs_best_single": -0.023262220486842067,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8357847935681102
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02450581952502917,
+          "ndcg_improvement_vs_average_single": 0.03201825571802419,
+          "ndcg_regret_vs_best_single": -0.01810186200886632,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.650379056068031
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.23878521770947675,
+      "average_single_ndcg@10": 0.3619194551151842,
+      "best_single_mrr@10": 0.2493392051295454,
+      "best_single_ndcg@10": 0.3749441756876676,
+      "budget": 50,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.027782133709685852,
+          "ndcg_improvement_vs_average_single": 0.03370861925646612,
+          "ndcg_regret_vs_best_single": -0.020683898683982738,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7940246613689559
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02239558831216354,
+          "ndcg_improvement_vs_average_single": 0.027628220628009126,
+          "ndcg_regret_vs_best_single": -0.014603500055525742,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.560607038525563
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.027996009966372193,
+          "ndcg_improvement_vs_average_single": 0.0343723036037058,
+          "ndcg_regret_vs_best_single": -0.021347583031222417,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8195025341396704
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.023745056017284327,
+          "ndcg_improvement_vs_average_single": 0.029558252233260862,
+          "ndcg_regret_vs_best_single": -0.01653353166077748,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6346981330143466
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.23209145714634188,
+      "average_single_ndcg@10": 0.35283210199091763,
+      "best_single_mrr@10": 0.2382398550345861,
+      "best_single_ndcg@10": 0.3620866042071543,
+      "budget": 50,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.028227309950690838,
+          "ndcg_improvement_vs_average_single": 0.03621602578039318,
+          "ndcg_regret_vs_best_single": -0.026961523564156542,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.4566706525205513
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.020838342655027597,
+          "ndcg_improvement_vs_average_single": 0.02693896852598504,
+          "ndcg_regret_vs_best_single": -0.017684466309748403,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9554520543915264
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.023174428937326852,
+          "ndcg_improvement_vs_average_single": 0.030440734160075422,
+          "ndcg_regret_vs_best_single": -0.021186231943838785,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.1446445983160762
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.025273116930636164,
+          "ndcg_improvement_vs_average_single": 0.03327263398230368,
+          "ndcg_regret_vs_best_single": -0.02401813176606704,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.2976457947099687
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.24166318192114022,
+      "average_single_ndcg@10": 0.36348443190011137,
+      "best_single_mrr@10": 0.24953435087902706,
+      "best_single_ndcg@10": 0.37431903204751976,
+      "budget": 50,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.026601676162598176,
+          "ndcg_improvement_vs_average_single": 0.03581363741518462,
+          "ndcg_regret_vs_best_single": -0.024979037267776227,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.1527438450855563
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.021393723973306855,
+          "ndcg_improvement_vs_average_single": 0.027968327796050962,
+          "ndcg_regret_vs_best_single": -0.01713372764864257,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7906949686897708
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.025777533845590894,
+          "ndcg_improvement_vs_average_single": 0.034679057461052765,
+          "ndcg_regret_vs_best_single": -0.023844457313644374,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.100384739133536
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02300846793162925,
+          "ndcg_improvement_vs_average_single": 0.03120234682196993,
+          "ndcg_regret_vs_best_single": -0.020367746674561538,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.939939933059431
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.23486814594114264,
+      "average_single_ndcg@10": 0.3585318049835874,
+      "best_single_mrr@10": 0.24183349885874583,
+      "best_single_ndcg@10": 0.36841188116981805,
+      "budget": 50,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.026969970205425797,
+          "ndcg_improvement_vs_average_single": 0.03308981360762514,
+          "ndcg_regret_vs_best_single": -0.023209737421394483,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.1745727959942593
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.022308687470597444,
+          "ndcg_improvement_vs_average_single": 0.029263442716463195,
+          "ndcg_regret_vs_best_single": -0.019383366530232538,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9809320376115174
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.02697868206924192,
+          "ndcg_improvement_vs_average_single": 0.03334840016741458,
+          "ndcg_regret_vs_best_single": -0.023468323981183925,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.1876590594458416
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02429717038663254,
+          "ndcg_improvement_vs_average_single": 0.03030749179192832,
+          "ndcg_regret_vs_best_single": -0.020427415605697663,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0337681218575154
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.23340477061662573,
+      "average_single_ndcg@10": 0.355019709587555,
+      "best_single_mrr@10": 0.24239280051574236,
+      "best_single_ndcg@10": 0.36743392679644293,
+      "budget": 100,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.027943738783475336,
+          "ndcg_improvement_vs_average_single": 0.03661631826589756,
+          "ndcg_regret_vs_best_single": -0.02420210105700965,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9747735459180724
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.020046434234140043,
+          "ndcg_improvement_vs_average_single": 0.026666137311954663,
+          "ndcg_regret_vs_best_single": -0.01425192010306675,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.5740160601049875
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.028629798058996736,
+          "ndcg_improvement_vs_average_single": 0.03762052806565508,
+          "ndcg_regret_vs_best_single": -0.025206310856767167,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.015219503277291
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02053299182827173,
+          "ndcg_improvement_vs_average_single": 0.02812853402265303,
+          "ndcg_regret_vs_best_single": -0.015714316813765117,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6329161375762988
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.24070509469795967,
+      "average_single_ndcg@10": 0.3638347158135322,
+      "best_single_mrr@10": 0.24968375934347392,
+      "best_single_ndcg@10": 0.37455470998014745,
+      "budget": 100,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.028665298904047537,
+          "ndcg_improvement_vs_average_single": 0.03602130164829098,
+          "ndcg_regret_vs_best_single": -0.02530130748167575,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.1800989388814442
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.022032085794434858,
+          "ndcg_improvement_vs_average_single": 0.028661688718432388,
+          "ndcg_regret_vs_best_single": -0.017941694551817156,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8368332236454086
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.028310290453539638,
+          "ndcg_improvement_vs_average_single": 0.03503654930086075,
+          "ndcg_regret_vs_best_single": -0.02431655513424552,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.134168300668179
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.021268926524140558,
+          "ndcg_improvement_vs_average_single": 0.028335301940818847,
+          "ndcg_regret_vs_best_single": -0.017615307774203615,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.821609951480299
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.2337595612705382,
+      "average_single_ndcg@10": 0.35582222843972533,
+      "best_single_mrr@10": 0.24386684787343405,
+      "best_single_ndcg@10": 0.3697386221488832,
+      "budget": 100,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.0299028191591309,
+          "ndcg_improvement_vs_average_single": 0.03915829253913222,
+          "ndcg_regret_vs_best_single": -0.025241898829974352,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9069123566604627
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02197110274772185,
+          "ndcg_improvement_vs_average_single": 0.030992136112763025,
+          "ndcg_regret_vs_best_single": -0.017075742403605154,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6135117603193514
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.029746005610440274,
+          "ndcg_improvement_vs_average_single": 0.03945380612626859,
+          "ndcg_regret_vs_best_single": -0.025537412417110716,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9175298195359882
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02297775861167739,
+          "ndcg_improvement_vs_average_single": 0.031529602707193405,
+          "ndcg_regret_vs_best_single": -0.017613208998035534,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6328223161164577
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.23878521770947675,
+      "average_single_ndcg@10": 0.3619194551151842,
+      "best_single_mrr@10": 0.2493392051295454,
+      "best_single_ndcg@10": 0.3749441756876676,
+      "budget": 100,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.029539752234593097,
+          "ndcg_improvement_vs_average_single": 0.03639133398083377,
+          "ndcg_regret_vs_best_single": -0.02336661340835039,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8970101614968926
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02310604080637013,
+          "ndcg_improvement_vs_average_single": 0.029587297847621985,
+          "ndcg_regret_vs_best_single": -0.0165625772751386,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6358131517281642
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.029544543759691955,
+          "ndcg_improvement_vs_average_single": 0.03725668399276322,
+          "ndcg_regret_vs_best_single": -0.024231963420279834,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9302296845996616
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.022189552732911677,
+          "ndcg_improvement_vs_average_single": 0.028863992549273187,
+          "ndcg_regret_vs_best_single": -0.015839271976789804,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6080465177215626
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.23209145714634188,
+      "average_single_ndcg@10": 0.35283210199091763,
+      "best_single_mrr@10": 0.2382398550345861,
+      "best_single_ndcg@10": 0.3620866042071543,
+      "budget": 100,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.030001916610039592,
+          "ndcg_improvement_vs_average_single": 0.03911991687790817,
+          "ndcg_regret_vs_best_single": -0.02986541466167153,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.6135613760659107
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.021359747704423893,
+          "ndcg_improvement_vs_average_single": 0.02829512599763717,
+          "ndcg_regret_vs_best_single": -0.019040623781400534,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.02872220117872
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.03043663861446516,
+          "ndcg_improvement_vs_average_single": 0.03963710072839638,
+          "ndcg_regret_vs_best_single": -0.030382598512159742,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.6415036596379453
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.024634537312912708,
+          "ndcg_improvement_vs_average_single": 0.03355892564666585,
+          "ndcg_regret_vs_best_single": -0.02430442343042921,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.313113491279314
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.24166318192114022,
+      "average_single_ndcg@10": 0.36348443190011137,
+      "best_single_mrr@10": 0.24953435087902706,
+      "best_single_ndcg@10": 0.37431903204751976,
+      "budget": 100,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.02831791333437872,
+          "ndcg_improvement_vs_average_single": 0.038672402773535564,
+          "ndcg_regret_vs_best_single": -0.027837802626127173,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.284671434450021
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.0220571324029063,
+          "ndcg_improvement_vs_average_single": 0.029668848097533562,
+          "ndcg_regret_vs_best_single": -0.01883424795012517,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8691713442987663
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.02852874043872944,
+          "ndcg_improvement_vs_average_single": 0.03881672711791323,
+          "ndcg_regret_vs_best_single": -0.02798212697050484,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.291331779198055
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.021976547662606927,
+          "ndcg_improvement_vs_average_single": 0.030699375994826472,
+          "ndcg_regret_vs_best_single": -0.01986477584741808,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9167286091388263
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.23486814594114264,
+      "average_single_ndcg@10": 0.3585318049835874,
+      "best_single_mrr@10": 0.24183349885874583,
+      "best_single_ndcg@10": 0.36841188116981805,
+      "budget": 100,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.029330014113219394,
+          "ndcg_improvement_vs_average_single": 0.03718701535577967,
+          "ndcg_regret_vs_best_single": -0.027306939169549016,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.3819194637185723
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02298734166187516,
+          "ndcg_improvement_vs_average_single": 0.030979808112481244,
+          "ndcg_regret_vs_best_single": -0.021099731926250587,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0677919647854623
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.029152727684560842,
+          "ndcg_improvement_vs_average_single": 0.03701645761111233,
+          "ndcg_regret_vs_best_single": -0.027136381424881673,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.373288065465539
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02363114839788827,
+          "ndcg_improvement_vs_average_single": 0.030850800743143836,
+          "ndcg_regret_vs_best_single": -0.02097072455691318,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.061263302105857
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.23340477061662573,
+      "average_single_ndcg@10": 0.355019709587555,
+      "best_single_mrr@10": 0.24239280051574236,
+      "best_single_ndcg@10": 0.36743392679644293,
+      "budget": 200,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.027967696408969733,
+          "ndcg_improvement_vs_average_single": 0.036867218899432896,
+          "ndcg_regret_vs_best_single": -0.024453001690544984,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.984878920639392
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.020046434234140043,
+          "ndcg_improvement_vs_average_single": 0.026666137311954663,
+          "ndcg_regret_vs_best_single": -0.01425192010306675,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.5740160601049875
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.023977662781175357,
+          "ndcg_improvement_vs_average_single": 0.032356798054758884,
+          "ndcg_regret_vs_best_single": -0.019942580845870972,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8032153985348813
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02036136811109368,
+          "ndcg_improvement_vs_average_single": 0.02840076897429994,
+          "ndcg_regret_vs_best_single": -0.015986551765412027,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.643880781865429
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.24070509469795967,
+      "average_single_ndcg@10": 0.3638347158135322,
+      "best_single_mrr@10": 0.24968375934347392,
+      "best_single_ndcg@10": 0.37455470998014745,
+      "budget": 200,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.028961066680605635,
+          "ndcg_improvement_vs_average_single": 0.03648643049536027,
+          "ndcg_regret_vs_best_single": -0.025766436328745035,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.201793393180581
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.022032085794434858,
+          "ndcg_improvement_vs_average_single": 0.028661688718432388,
+          "ndcg_regret_vs_best_single": -0.017941694551817156,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8368332236454086
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.028076376910076167,
+          "ndcg_improvement_vs_average_single": 0.03485392981951008,
+          "ndcg_regret_vs_best_single": -0.024133935652894845,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.12565059634333
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.021131279075845527,
+          "ndcg_improvement_vs_average_single": 0.028429529140677867,
+          "ndcg_regret_vs_best_single": -0.017709534974062635,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8260048792383976
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.2337595612705382,
+      "average_single_ndcg@10": 0.35582222843972533,
+      "best_single_mrr@10": 0.24386684787343405,
+      "best_single_ndcg@10": 0.3697386221488832,
+      "budget": 200,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.02961445646681654,
+          "ndcg_improvement_vs_average_single": 0.03915401873589469,
+          "ndcg_regret_vs_best_single": -0.02523762502673682,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9067588038318042
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02197110274772185,
+          "ndcg_improvement_vs_average_single": 0.030992136112763025,
+          "ndcg_regret_vs_best_single": -0.017075742403605154,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6135117603193514
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.029264675134598295,
+          "ndcg_improvement_vs_average_single": 0.038113855142471786,
+          "ndcg_regret_vs_best_single": -0.024197461433313916,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.86938692376138
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02245678915547189,
+          "ndcg_improvement_vs_average_single": 0.03128595090347247,
+          "ndcg_regret_vs_best_single": -0.0173695571943146,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6240681873955738
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.23878521770947675,
+      "average_single_ndcg@10": 0.3619194551151842,
+      "best_single_mrr@10": 0.2493392051295454,
+      "best_single_ndcg@10": 0.3749441756876676,
+      "budget": 200,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.028995260746083995,
+          "ndcg_improvement_vs_average_single": 0.035930052166378956,
+          "ndcg_regret_vs_best_single": -0.022905331593895573,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8793022263481975
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02310604080637013,
+          "ndcg_improvement_vs_average_single": 0.029587297847621985,
+          "ndcg_regret_vs_best_single": -0.0165625772751386,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6358131517281642
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.028499991288136184,
+          "ndcg_improvement_vs_average_single": 0.0354698651717264,
+          "ndcg_regret_vs_best_single": -0.022445144599243017,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8616363197327126
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.021597145993413835,
+          "ndcg_improvement_vs_average_single": 0.02833152948032619,
+          "ndcg_regret_vs_best_single": -0.015306808907842806,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.5876060381740817
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.23209145714634188,
+      "average_single_ndcg@10": 0.35283210199091763,
+      "best_single_mrr@10": 0.2382398550345861,
+      "best_single_ndcg@10": 0.3620866042071543,
+      "budget": 200,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.02999843186451312,
+          "ndcg_improvement_vs_average_single": 0.039561655211806046,
+          "ndcg_regret_vs_best_single": -0.03030715299556941,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.637427507575549
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.021359747704423893,
+          "ndcg_improvement_vs_average_single": 0.02829512599763717,
+          "ndcg_regret_vs_best_single": -0.019040623781400534,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.02872220117872
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.0254517101388671,
+          "ndcg_improvement_vs_average_single": 0.03330341206064669,
+          "ndcg_regret_vs_best_single": -0.02404890984441005,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.299308665257939
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.024633230533340322,
+          "ndcg_improvement_vs_average_single": 0.0337463430064589,
+          "ndcg_regret_vs_best_single": -0.024491840790222263,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.32323923091468
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.24166318192114022,
+      "average_single_ndcg@10": 0.36348443190011137,
+      "best_single_mrr@10": 0.24953435087902706,
+      "best_single_ndcg@10": 0.37431903204751976,
+      "budget": 200,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.02837846078790096,
+          "ndcg_improvement_vs_average_single": 0.03963965798841135,
+          "ndcg_regret_vs_best_single": -0.028805057841002957,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.3293087630877167
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.0220571324029063,
+          "ndcg_improvement_vs_average_single": 0.029668848097533562,
+          "ndcg_regret_vs_best_single": -0.01883424795012517,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8691713442987663
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.0280012370846619,
+          "ndcg_improvement_vs_average_single": 0.03814022728202826,
+          "ndcg_regret_vs_best_single": -0.02730562713461987,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.260112360544807
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.021690362936246543,
+          "ndcg_improvement_vs_average_single": 0.03087800174978278,
+          "ndcg_regret_vs_best_single": -0.02004340160237439,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9249719108078331
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.23486814594114264,
+      "average_single_ndcg@10": 0.3585318049835874,
+      "best_single_mrr@10": 0.24183349885874583,
+      "best_single_ndcg@10": 0.36841188116981805,
+      "budget": 200,
+      "dataset": "arguana",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.029372266652727685,
+          "ndcg_improvement_vs_average_single": 0.037452381555409864,
+          "ndcg_regret_vs_best_single": -0.027572305369179206,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.395348823706708
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02298734166187516,
+          "ndcg_improvement_vs_average_single": 0.030979808112481244,
+          "ndcg_regret_vs_best_single": -0.021099731926250587,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0677919647854623
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.02888788702455003,
+          "ndcg_improvement_vs_average_single": 0.03631404062857363,
+          "ndcg_regret_vs_best_single": -0.026433964442342972,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.3377409214304743
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.022961641663617527,
+          "ndcg_improvement_vs_average_single": 0.030497664674774994,
+          "ndcg_regret_vs_best_single": -0.020617588488544336,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0433921813921834
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.35767305734645405,
+      "average_single_ndcg@10": 0.295574014624088,
+      "best_single_mrr@10": 0.4268634769822418,
+      "best_single_ndcg@10": 0.3595167512058867,
+      "budget": 20,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05760707687667299,
+          "ndcg_improvement_vs_average_single": 0.05428139760460399,
+          "ndcg_regret_vs_best_single": 0.009661338977194733,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9244531944231424
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04902019002375296,
+          "ndcg_improvement_vs_average_single": 0.04672357203562327,
+          "ndcg_regret_vs_best_single": 0.017219164546175447,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8653548044182638
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10802463899257247,
+          "ndcg_improvement_vs_average_single": 0.08920483079393143,
+          "ndcg_regret_vs_best_single": -0.025262094212132713,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.197536855337871
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06288080156845,
+          "ndcg_improvement_vs_average_single": 0.054174488321173,
+          "ndcg_regret_vs_best_single": 0.009768248260625723,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9236172176637318
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.3511004599781322,
+      "average_single_ndcg@10": 0.28356738183193786,
+      "best_single_mrr@10": 0.4317686536213852,
+      "best_single_ndcg@10": 0.35223492115804184,
+      "budget": 20,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06012753082230515,
+          "ndcg_improvement_vs_average_single": 0.058171175454376,
+          "ndcg_regret_vs_best_single": 0.010496363871727976,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9235711372888982
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.055771877238623035,
+          "ndcg_improvement_vs_average_single": 0.05313159325744582,
+          "ndcg_regret_vs_best_single": 0.015535946068658157,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.886875616767935
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10922077065188701,
+          "ndcg_improvement_vs_average_single": 0.08733942150554819,
+          "ndcg_regret_vs_best_single": -0.01867188217944421,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.1359585792842448
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06275261094144702,
+          "ndcg_improvement_vs_average_single": 0.05738832198772581,
+          "ndcg_regret_vs_best_single": 0.011279217338378167,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9178708204118625
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.36476124495720696,
+      "average_single_ndcg@10": 0.2952017018547174,
+      "best_single_mrr@10": 0.438819138106549,
+      "best_single_ndcg@10": 0.3586785795998359,
+      "budget": 20,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06398927346076988,
+          "ndcg_improvement_vs_average_single": 0.060815485362600785,
+          "ndcg_regret_vs_best_single": 0.0026613923825177244,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9790365210368086
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04813793688496776,
+          "ndcg_improvement_vs_average_single": 0.04830363114209357,
+          "ndcg_regret_vs_best_single": 0.015173246603024937,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8804820972453092
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10282066508313537,
+          "ndcg_improvement_vs_average_single": 0.0854271701226807,
+          "ndcg_regret_vs_best_single": -0.021950292377562186,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.172899905897232
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06612798325981223,
+          "ndcg_improvement_vs_average_single": 0.05856296690289425,
+          "ndcg_regret_vs_best_single": 0.004913910842224256,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9612936945169602
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.37608537872789655,
+      "average_single_ndcg@10": 0.3059009063009025,
+      "best_single_mrr@10": 0.45201994495343667,
+      "best_single_ndcg@10": 0.37357556961753646,
+      "budget": 20,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06519483090148176,
+          "ndcg_improvement_vs_average_single": 0.06294644745211492,
+          "ndcg_regret_vs_best_single": 0.0047282158645190475,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9650665726817375
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.05428071862157369,
+          "ndcg_improvement_vs_average_single": 0.052716916015673854,
+          "ndcg_regret_vs_best_single": 0.014957747300960111,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8894878336447993
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10166035139313051,
+          "ndcg_improvement_vs_average_single": 0.08581052313118553,
+          "ndcg_regret_vs_best_single": -0.01813585981455157,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.1339929814626348
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06650595709384305,
+          "ndcg_improvement_vs_average_single": 0.06219588155496236,
+          "ndcg_regret_vs_best_single": 0.005478781761671603,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.959521174593528
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.3634237265769332,
+      "average_single_ndcg@10": 0.29844300126099493,
+      "best_single_mrr@10": 0.432105154017268,
+      "best_single_ndcg@10": 0.3589987364280363,
+      "budget": 20,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.0682148512611696,
+          "ndcg_improvement_vs_average_single": 0.06362107594215544,
+          "ndcg_regret_vs_best_single": -0.003065340775114056,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.0253100781177735
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.06253958828186856,
+          "ndcg_improvement_vs_average_single": 0.05810230031617131,
+          "ndcg_regret_vs_best_single": 0.002453434850870073,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9797423411333185
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10672765147230706,
+          "ndcg_improvement_vs_average_single": 0.08809380692638802,
+          "ndcg_regret_vs_best_single": -0.02753807175934664,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.227377899742969
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.07151670248463599,
+          "ndcg_improvement_vs_average_single": 0.0639121948046032,
+          "ndcg_regret_vs_best_single": -0.003356459637561815,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.0277138047148062
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.37192578139727783,
+      "average_single_ndcg@10": 0.3016569217025191,
+      "best_single_mrr@10": 0.4395609471025148,
+      "best_single_ndcg@10": 0.3633873432638926,
+      "budget": 20,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.059375353466802394,
+          "ndcg_improvement_vs_average_single": 0.054465532340912004,
+          "ndcg_regret_vs_best_single": 0.007264889220461479,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9411563291104484
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.05317413188553333,
+          "ndcg_improvement_vs_average_single": 0.04919218607447867,
+          "ndcg_regret_vs_best_single": 0.012538235486894811,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.898443626580218
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10288287524035744,
+          "ndcg_improvement_vs_average_single": 0.08250836009483614,
+          "ndcg_regret_vs_best_single": -0.02077793853346266,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.1682957770894604
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.061935395694303064,
+          "ndcg_improvement_vs_average_single": 0.05439008973611886,
+          "ndcg_regret_vs_best_single": 0.00734033182525462,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9405452640724579
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.3840704294386005,
+      "average_single_ndcg@10": 0.3173548276093865,
+      "best_single_mrr@10": 0.46078120876220635,
+      "best_single_ndcg@10": 0.38795488218505875,
+      "budget": 20,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06783452098178938,
+          "ndcg_improvement_vs_average_single": 0.06363516754229293,
+          "ndcg_regret_vs_best_single": 0.00696488703337933,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9506736427100488
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.06466274554160534,
+          "ndcg_improvement_vs_average_single": 0.05609113225698015,
+          "ndcg_regret_vs_best_single": 0.014508922318692108,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8972456720756441
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.11148625721072275,
+          "ndcg_improvement_vs_average_single": 0.09592086872715644,
+          "ndcg_regret_vs_best_single": -0.025320814151484183,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.1793257406362498
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.0711128077517626,
+          "ndcg_improvement_vs_average_single": 0.060739681778437804,
+          "ndcg_regret_vs_best_single": 0.009860372797234451,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9301673854468082
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.35767305734645405,
+      "average_single_ndcg@10": 0.295574014624088,
+      "best_single_mrr@10": 0.4268634769822418,
+      "best_single_ndcg@10": 0.3595167512058867,
+      "budget": 50,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06504590355540474,
+          "ndcg_improvement_vs_average_single": 0.05956213162626328,
+          "ndcg_regret_vs_best_single": 0.004380604955535439,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9657458752181215
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.052329581872337216,
+          "ndcg_improvement_vs_average_single": 0.050013292085265615,
+          "ndcg_regret_vs_best_single": 0.013929444496533105,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8910787585802348
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.11031604645025073,
+          "ndcg_improvement_vs_average_single": 0.09434309795286105,
+          "ndcg_regret_vs_best_single": -0.030400361371062334,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.2377155170092908
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06255561211024391,
+          "ndcg_improvement_vs_average_single": 0.055895167754898445,
+          "ndcg_regret_vs_best_single": 0.008047568826900275,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9370720643414641
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.3511004599781322,
+      "average_single_ndcg@10": 0.28356738183193786,
+      "best_single_mrr@10": 0.4317686536213852,
+      "best_single_ndcg@10": 0.35223492115804184,
+      "budget": 50,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06227189609018585,
+          "ndcg_improvement_vs_average_single": 0.06116451482735019,
+          "ndcg_regret_vs_best_single": 0.007503024498753785,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9453670207758449
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.05293660219432189,
+          "ndcg_improvement_vs_average_single": 0.05210065022986976,
+          "ndcg_regret_vs_best_single": 0.016566889096234216,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8793688454630825
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10990413980318964,
+          "ndcg_improvement_vs_average_single": 0.09413865577890951,
+          "ndcg_regret_vs_best_single": -0.02547111645280553,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.1854669375280984
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05890029408437952,
+          "ndcg_improvement_vs_average_single": 0.05665901313469024,
+          "ndcg_regret_vs_best_single": 0.012008526191413738,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9125603865431603
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.36476124495720696,
+      "average_single_ndcg@10": 0.2952017018547174,
+      "best_single_mrr@10": 0.438819138106549,
+      "best_single_ndcg@10": 0.3586785795998359,
+      "budget": 50,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06784347547411679,
+          "ndcg_improvement_vs_average_single": 0.06236703700109991,
+          "ndcg_regret_vs_best_single": 0.0011098407440185976,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9912579132477578
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.05230978773140288,
+          "ndcg_improvement_vs_average_single": 0.051131914131427425,
+          "ndcg_regret_vs_best_single": 0.012344963613691085,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9027601541520335
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10207225804019154,
+          "ndcg_improvement_vs_average_single": 0.08991749331538723,
+          "ndcg_regret_vs_best_single": -0.026440615570268722,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.208269660619075
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.0645086340157599,
+          "ndcg_improvement_vs_average_single": 0.058330493253805515,
+          "ndcg_regret_vs_best_single": 0.005146384491312994,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9594625265598483
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.37608537872789655,
+      "average_single_ndcg@10": 0.3059009063009025,
+      "best_single_mrr@10": 0.45201994495343667,
+      "best_single_ndcg@10": 0.37357556961753646,
+      "budget": 50,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.07325293141801459,
+          "ndcg_improvement_vs_average_single": 0.06452209633094319,
+          "ndcg_regret_vs_best_single": 0.0031525669856907745,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9767079226464663
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.06059316442333068,
+          "ndcg_improvement_vs_average_single": 0.05417944629918836,
+          "ndcg_regret_vs_best_single": 0.013495217017445604,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9002934306868685
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10659380537646568,
+          "ndcg_improvement_vs_average_single": 0.09268374502178439,
+          "ndcg_regret_vs_best_single": -0.025009081705150427,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.184774334141411
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06916119971345625,
+          "ndcg_improvement_vs_average_single": 0.06018635069102524,
+          "ndcg_regret_vs_best_single": 0.0074883126256087285,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9446741789421792
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.3634237265769332,
+      "average_single_ndcg@10": 0.29844300126099493,
+      "best_single_mrr@10": 0.432105154017268,
+      "best_single_ndcg@10": 0.3589987364280363,
+      "budget": 50,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.058831485880179446,
+          "ndcg_improvement_vs_average_single": 0.05464485530919522,
+          "ndcg_regret_vs_best_single": 0.005910879857846163,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9511947147405514
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.056303491309429576,
+          "ndcg_improvement_vs_average_single": 0.051023470809850036,
+          "ndcg_regret_vs_best_single": 0.009532264357191345,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9212934635266433
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10469262526863476,
+          "ndcg_improvement_vs_average_single": 0.08933710152309404,
+          "ndcg_regret_vs_best_single": -0.028781366356052662,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.2376436044964199
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05549098895298421,
+          "ndcg_improvement_vs_average_single": 0.05168739464978711,
+          "ndcg_regret_vs_best_single": 0.00886834051725427,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9267753872297051
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.37192578139727783,
+      "average_single_ndcg@10": 0.3016569217025191,
+      "best_single_mrr@10": 0.4395609471025148,
+      "best_single_ndcg@10": 0.3633873432638926,
+      "budget": 50,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.057486426874787944,
+          "ndcg_improvement_vs_average_single": 0.053943463453091145,
+          "ndcg_regret_vs_best_single": 0.007786958108282338,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9369277099416824
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04641301888926591,
+          "ndcg_improvement_vs_average_single": 0.04611288698832933,
+          "ndcg_regret_vs_best_single": 0.015617534573044156,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8735021227943751
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.09831608415337634,
+          "ndcg_improvement_vs_average_single": 0.08378456235387988,
+          "ndcg_regret_vs_best_single": -0.022054140792506394,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.1786326760346175
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05630914677826793,
+          "ndcg_improvement_vs_average_single": 0.05222530514395107,
+          "ndcg_regret_vs_best_single": 0.00950511641742241,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9230110845106391
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.3840704294386005,
+      "average_single_ndcg@10": 0.3173548276093865,
+      "best_single_mrr@10": 0.46078120876220635,
+      "best_single_ndcg@10": 0.38795488218505875,
+      "budget": 50,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06475229046487957,
+          "ndcg_improvement_vs_average_single": 0.05903276402694979,
+          "ndcg_regret_vs_best_single": 0.011567290548722464,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9180787421607152
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.06659974361874599,
+          "ndcg_improvement_vs_average_single": 0.05664192007406932,
+          "ndcg_regret_vs_best_single": 0.013958134501602937,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9011464326373715
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.114348867021076,
+          "ndcg_improvement_vs_average_single": 0.10136556191231766,
+          "ndcg_regret_vs_best_single": -0.030765507336645403,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.2178858608648069
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06443935452248989,
+          "ndcg_improvement_vs_average_single": 0.055878697077380246,
+          "ndcg_regret_vs_best_single": 0.01472135749829201,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8957411747995676
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.35767305734645405,
+      "average_single_ndcg@10": 0.295574014624088,
+      "best_single_mrr@10": 0.4268634769822418,
+      "best_single_ndcg@10": 0.3595167512058867,
+      "budget": 100,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05798033782000528,
+          "ndcg_improvement_vs_average_single": 0.049105142589099815,
+          "ndcg_regret_vs_best_single": 0.014837593992698905,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8839774868431075
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04739330015458282,
+          "ndcg_improvement_vs_average_single": 0.04167179475959504,
+          "ndcg_regret_vs_best_single": 0.022270941822203683,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8258524500768465
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10656175771971493,
+          "ndcg_improvement_vs_average_single": 0.08930583917795493,
+          "ndcg_regret_vs_best_single": -0.025363102596156206,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.19832669003547
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05534771707574554,
+          "ndcg_improvement_vs_average_single": 0.04574613005656958,
+          "ndcg_regret_vs_best_single": 0.018196606525229142,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8577117003590302
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.3511004599781322,
+      "average_single_ndcg@10": 0.28356738183193786,
+      "best_single_mrr@10": 0.4317686536213852,
+      "best_single_ndcg@10": 0.35223492115804184,
+      "budget": 100,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05781255891113368,
+          "ndcg_improvement_vs_average_single": 0.05217149504443541,
+          "ndcg_regret_vs_best_single": 0.016496044281668565,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8798846992075221
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.05025685254307577,
+          "ndcg_improvement_vs_average_single": 0.047485570729229154,
+          "ndcg_regret_vs_best_single": 0.021181968596874823,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8457643247103912
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10945453003053951,
+          "ndcg_improvement_vs_average_single": 0.09604884568449373,
+          "ndcg_regret_vs_best_single": -0.027381306358389756,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.1993759105620139
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.052180654526260195,
+          "ndcg_improvement_vs_average_single": 0.04807163668719672,
+          "ndcg_regret_vs_best_single": 0.02059590263890726,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8500317410450899
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.36476124495720696,
+      "average_single_ndcg@10": 0.2952017018547174,
+      "best_single_mrr@10": 0.438819138106549,
+      "best_single_ndcg@10": 0.3586785795998359,
+      "budget": 100,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.062319024997172234,
+          "ndcg_improvement_vs_average_single": 0.05554594033521859,
+          "ndcg_regret_vs_best_single": 0.007930937409899919,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9375289263458628
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04956122987595668,
+          "ndcg_improvement_vs_average_single": 0.047442923052905706,
+          "ndcg_regret_vs_best_single": 0.016033954692212804,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8737023995052605
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10348141235908459,
+          "ndcg_improvement_vs_average_single": 0.0908520988923362,
+          "ndcg_regret_vs_best_single": -0.027375221147217688,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.215631440294989
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05660417373600268,
+          "ndcg_improvement_vs_average_single": 0.05027509485803788,
+          "ndcg_regret_vs_best_single": 0.013201782887080626,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8960110881627613
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.37608537872789655,
+      "average_single_ndcg@10": 0.3059009063009025,
+      "best_single_mrr@10": 0.45201994495343667,
+      "best_single_ndcg@10": 0.37357556961753646,
+      "budget": 100,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06870781962824718,
+          "ndcg_improvement_vs_average_single": 0.05762782600792027,
+          "ndcg_regret_vs_best_single": 0.010046837308713696,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9257710580567879
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.0595553858914904,
+          "ndcg_improvement_vs_average_single": 0.051217270166352746,
+          "ndcg_regret_vs_best_single": 0.01645739315028122,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8784080160600067
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10510264675941633,
+          "ndcg_improvement_vs_average_single": 0.08910796701797258,
+          "ndcg_regret_vs_best_single": -0.021433303701338613,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.1583554512939147
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06588856841232138,
+          "ndcg_improvement_vs_average_single": 0.054771240820041756,
+          "ndcg_regret_vs_best_single": 0.01290342249659221,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9046657798929852
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.3634237265769332,
+      "average_single_ndcg@10": 0.29844300126099493,
+      "best_single_mrr@10": 0.432105154017268,
+      "best_single_ndcg@10": 0.3589987364280363,
+      "budget": 100,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.0563393092787392,
+          "ndcg_improvement_vs_average_single": 0.05000719798675529,
+          "ndcg_regret_vs_best_single": 0.010548537180286088,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9129022449220687
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.05460685065791954,
+          "ndcg_improvement_vs_average_single": 0.04732856473268987,
+          "ndcg_regret_vs_best_single": 0.01322717043435151,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.890785155213914
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10707169249330767,
+          "ndcg_improvement_vs_average_single": 0.09091897387810638,
+          "ndcg_regret_vs_best_single": -0.030363238711065,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.2507048971274877
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.052118444369038175,
+          "ndcg_improvement_vs_average_single": 0.04646106845522646,
+          "ndcg_regret_vs_best_single": 0.014094666711814918,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8836223631590373
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.37192578139727783,
+      "average_single_ndcg@10": 0.3016569217025191,
+      "best_single_mrr@10": 0.4395609471025148,
+      "best_single_ndcg@10": 0.3633873432638926,
+      "budget": 100,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.055214813558043974,
+          "ndcg_improvement_vs_average_single": 0.04880706794137912,
+          "ndcg_regret_vs_best_single": 0.01292335361999436,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8953242721083174
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.043291200090487536,
+          "ndcg_improvement_vs_average_single": 0.04047206280480353,
+          "ndcg_regret_vs_best_single": 0.02125835875656995,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8278129468512173
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.09693992006937374,
+          "ndcg_improvement_vs_average_single": 0.08200358245204425,
+          "ndcg_regret_vs_best_single": -0.02027316089067077,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.164207212407539
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05278390453568599,
+          "ndcg_improvement_vs_average_single": 0.045672233628876846,
+          "ndcg_regret_vs_best_single": 0.016058187932496637,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8699329477563076
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.3840704294386005,
+      "average_single_ndcg@10": 0.3173548276093865,
+      "best_single_mrr@10": 0.46078120876220635,
+      "best_single_ndcg@10": 0.38795488218505875,
+      "budget": 100,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.059755683746182564,
+          "ndcg_improvement_vs_average_single": 0.05141268185220804,
+          "ndcg_regret_vs_best_single": 0.019187372723464213,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8641121962384722
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.0643055084266485,
+          "ndcg_improvement_vs_average_single": 0.051018601967129595,
+          "ndcg_regret_vs_best_single": 0.01958145260854266,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8613212643656359
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.11375032990234885,
+          "ndcg_improvement_vs_average_single": 0.10158650553526188,
+          "ndcg_regret_vs_best_single": -0.03098645095958963,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.2194506161916416
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.057938393092787366,
+          "ndcg_improvement_vs_average_single": 0.04783593620209298,
+          "ndcg_regret_vs_best_single": 0.02276411837357928,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8387811559750306
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.35767305734645405,
+      "average_single_ndcg@10": 0.295574014624088,
+      "best_single_mrr@10": 0.4268634769822418,
+      "best_single_ndcg@10": 0.3595167512058867,
+      "budget": 200,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06113326169739469,
+          "ndcg_improvement_vs_average_single": 0.053734699026101174,
+          "ndcg_regret_vs_best_single": 0.010208037555697547,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9201782868438941
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04885429627116089,
+          "ndcg_improvement_vs_average_single": 0.0447262891165191,
+          "ndcg_regret_vs_best_single": 0.019216447465279618,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.849737057775929
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.11036506051351658,
+          "ndcg_improvement_vs_average_single": 0.09717170836944239,
+          "ndcg_regret_vs_best_single": -0.03322897178764367,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.259833826044773
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05609329638427024,
+          "ndcg_improvement_vs_average_single": 0.04868761325282295,
+          "ndcg_regret_vs_best_single": 0.015255123328975773,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8807126176914507
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.3511004599781322,
+      "average_single_ndcg@10": 0.28356738183193786,
+      "best_single_mrr@10": 0.4317686536213852,
+      "best_single_ndcg@10": 0.35223492115804184,
+      "budget": 200,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.060671398408928046,
+          "ndcg_improvement_vs_average_single": 0.05697204194600497,
+          "ndcg_regret_vs_best_single": 0.011695497380099007,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9148396935810036
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.05083465294272893,
+          "ndcg_improvement_vs_average_single": 0.04862100399901631,
+          "ndcg_regret_vs_best_single": 0.020046535327087667,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8540319376242235
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.11376116955095578,
+          "ndcg_improvement_vs_average_single": 0.10069812546800588,
+          "ndcg_regret_vs_best_single": -0.03203058614190191,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.2332294593358575
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.052715096331485856,
+          "ndcg_improvement_vs_average_single": 0.051509574519785384,
+          "ndcg_regret_vs_best_single": 0.017157964806318593,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8750649508144237
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.36476124495720696,
+      "average_single_ndcg@10": 0.2952017018547174,
+      "best_single_mrr@10": 0.438819138106549,
+      "best_single_ndcg@10": 0.3586785795998359,
+      "budget": 200,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06716199147909363,
+          "ndcg_improvement_vs_average_single": 0.061183567640467174,
+          "ndcg_regret_vs_best_single": 0.002293310104651336,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9819358624264747
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.05122110998001733,
+          "ndcg_improvement_vs_average_single": 0.05136283093959115,
+          "ndcg_regret_vs_best_single": 0.012114046805527356,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9045790590538384
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10815942766655356,
+          "ndcg_improvement_vs_average_single": 0.0968394015125702,
+          "ndcg_regret_vs_best_single": -0.03336252376745169,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.2627927282546385
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05793509406929831,
+          "ndcg_improvement_vs_average_single": 0.05471865797065667,
+          "ndcg_regret_vs_best_single": 0.00875821977446184,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9310125191598971
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.37608537872789655,
+      "average_single_ndcg@10": 0.3059009063009025,
+      "best_single_mrr@10": 0.45201994495343667,
+      "best_single_ndcg@10": 0.37357556961753646,
+      "budget": 200,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.07115569505712027,
+          "ndcg_improvement_vs_average_single": 0.06226855012713828,
+          "ndcg_regret_vs_best_single": 0.005406113189495687,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9600580710375924
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.0596807487840742,
+          "ndcg_improvement_vs_average_single": 0.051698722489368965,
+          "ndcg_regret_vs_best_single": 0.015975940827265,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8819651251716075
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10997577574180895,
+          "ndcg_improvement_vs_average_single": 0.095333118257304,
+          "ndcg_regret_vs_best_single": -0.02765845494067004,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.204348670426793
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.0637508011914188,
+          "ndcg_improvement_vs_average_single": 0.057072147276550134,
+          "ndcg_regret_vs_best_single": 0.010602516040083831,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9216655427565474
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.3634237265769332,
+      "average_single_ndcg@10": 0.29844300126099493,
+      "best_single_mrr@10": 0.432105154017268,
+      "best_single_ndcg@10": 0.3589987364280363,
+      "budget": 200,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05844408626475134,
+          "ndcg_improvement_vs_average_single": 0.052337181139190836,
+          "ndcg_regret_vs_best_single": 0.008218554027850544,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9321405808617476
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.0537698412698413,
+          "ndcg_improvement_vs_average_single": 0.04726835912969035,
+          "ndcg_regret_vs_best_single": 0.013287376037351029,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8902880462048876
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10888615541228364,
+          "ndcg_improvement_vs_average_single": 0.09438955815228778,
+          "ndcg_regret_vs_best_single": -0.0338338229852464,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.2793610125607153
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.051992138898314666,
+          "ndcg_improvement_vs_average_single": 0.04766282925610721,
+          "ndcg_regret_vs_best_single": 0.012892905910934171,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8935451293311076
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.37192578139727783,
+      "average_single_ndcg@10": 0.3016569217025191,
+      "best_single_mrr@10": 0.4395609471025148,
+      "best_single_ndcg@10": 0.3633873432638926,
+      "budget": 200,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05847613392150208,
+          "ndcg_improvement_vs_average_single": 0.05109454605797087,
+          "ndcg_regret_vs_best_single": 0.010635875503402614,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.9138522365927128
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04495013761640837,
+          "ndcg_improvement_vs_average_single": 0.042217522093850435,
+          "ndcg_regret_vs_best_single": 0.01951289946752305,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8419507029599418
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.10533263582550995,
+          "ndcg_improvement_vs_average_single": 0.09073696632996825,
+          "ndcg_regret_vs_best_single": -0.029006544768594766,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.2349452995372465
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05209016702484631,
+          "ndcg_improvement_vs_average_single": 0.047210392190795036,
+          "ndcg_regret_vs_best_single": 0.014520029370578447,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8823916230983262
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.3840704294386005,
+      "average_single_ndcg@10": 0.3173548276093865,
+      "best_single_mrr@10": 0.46078120876220635,
+      "best_single_ndcg@10": 0.38795488218505875,
+      "budget": 200,
+      "dataset": "fiqa",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06029860875466575,
+          "ndcg_improvement_vs_average_single": 0.05377920195513264,
+          "ndcg_regret_vs_best_single": 0.016820852620539617,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8808722406686649
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.06482675413791805,
+          "ndcg_improvement_vs_average_single": 0.05301796613885329,
+          "ndcg_regret_vs_best_single": 0.017582088436818966,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8754810563356314
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.11821815028465854,
+          "ndcg_improvement_vs_average_single": 0.10620279636061741,
+          "ndcg_regret_vs_best_single": -0.03560274178494516,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.2521438687188589
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.054906119217283056,
+          "ndcg_improvement_vs_average_single": 0.0493510218550241,
+          "ndcg_regret_vs_best_single": 0.021249032720648153,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 0.8495112160439444
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.5409334845049132,
+      "average_single_ndcg@10": 0.3321503858438464,
+      "best_single_mrr@10": 0.5429875283446712,
+      "best_single_ndcg@10": 0.33778386570807667,
+      "budget": 20,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.031175359032501793,
+          "ndcg_improvement_vs_average_single": 0.031758734851504045,
+          "ndcg_regret_vs_best_single": -0.02612525498727375,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.318749300335278
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.030024565381708168,
+          "ndcg_improvement_vs_average_single": 0.028469737250967075,
+          "ndcg_regret_vs_best_single": -0.02283625738673678,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.0268340295077016
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.028297430083144226,
+          "ndcg_improvement_vs_average_single": 0.0221830473012834,
+          "ndcg_regret_vs_best_single": -0.016549567437053103,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.468858311017881
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.0311073318216174,
+          "ndcg_improvement_vs_average_single": 0.027771289299202806,
+          "ndcg_regret_vs_best_single": -0.02213780943497251,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.9648432202213266
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.5093754724111867,
+      "average_single_ndcg@10": 0.3013740850886615,
+      "best_single_mrr@10": 0.5109504913076341,
+      "best_single_ndcg@10": 0.3063851536894775,
+      "budget": 20,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.028659297052154198,
+          "ndcg_improvement_vs_average_single": 0.026979850757038515,
+          "ndcg_regret_vs_best_single": -0.0219687821562225,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.1920256841669503
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02986866969009816,
+          "ndcg_improvement_vs_average_single": 0.026390687984659655,
+          "ndcg_regret_vs_best_single": -0.02137961938384364,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.1332395429950934
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.028007369614512445,
+          "ndcg_improvement_vs_average_single": 0.02338708093365932,
+          "ndcg_regret_vs_best_single": -0.018376012332843306,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.8335422837606843
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.028007369614512445,
+          "ndcg_improvement_vs_average_single": 0.02338708093365932,
+          "ndcg_regret_vs_best_single": -0.018376012332843306,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.8335422837606843
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.5088567649281934,
+      "average_single_ndcg@10": 0.30480384719418496,
+      "best_single_mrr@10": 0.5100302343159486,
+      "best_single_ndcg@10": 0.30907019620531945,
+      "budget": 20,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.038800075585789906,
+          "ndcg_improvement_vs_average_single": 0.034094277055150835,
+          "ndcg_regret_vs_best_single": -0.02982792804401635,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.495720575856598
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04081821617535908,
+          "ndcg_improvement_vs_average_single": 0.026156104365206212,
+          "ndcg_regret_vs_best_single": -0.021889755354071727,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.565396700661752
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.029746787603930458,
+          "ndcg_improvement_vs_average_single": 0.017339214157323313,
+          "ndcg_regret_vs_best_single": -0.013072865146188828,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.53209044924253
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02395691609977335,
+          "ndcg_improvement_vs_average_single": 0.02506289598417183,
+          "ndcg_regret_vs_best_single": -0.020796546973037344,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.4372768049170186
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.5037037037037038,
+      "average_single_ndcg@10": 0.3038168757144337,
+      "best_single_mrr@10": 0.5038340891912321,
+      "best_single_ndcg@10": 0.3098509009099439,
+      "budget": 20,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04169123204837488,
+          "ndcg_improvement_vs_average_single": 0.028951117371969926,
+          "ndcg_regret_vs_best_single": -0.022917092176459763,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.898988770672699
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.040236205593348395,
+          "ndcg_improvement_vs_average_single": 0.02688727467424995,
+          "ndcg_regret_vs_best_single": -0.020853249478739788,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.7279716941069876
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.03240173847316696,
+          "ndcg_improvement_vs_average_single": 0.023010698727274348,
+          "ndcg_regret_vs_best_single": -0.016976673531764186,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.406745330165043
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.03240173847316696,
+          "ndcg_improvement_vs_average_single": 0.023010698727274348,
+          "ndcg_regret_vs_best_single": -0.016976673531764186,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.406745330165043
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.5232227891156462,
+      "average_single_ndcg@10": 0.3167287597980617,
+      "best_single_mrr@10": 0.525587679516251,
+      "best_single_ndcg@10": 0.32101781638524046,
+      "budget": 20,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.03299225245653814,
+          "ndcg_improvement_vs_average_single": 0.033580293755909596,
+          "ndcg_regret_vs_best_single": -0.029291237168730833,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.4146480203001595
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03297902494331073,
+          "ndcg_improvement_vs_average_single": 0.02959818782393464,
+          "ndcg_regret_vs_best_single": -0.025309131236755877,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.9504310239706397
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.03958711262282699,
+          "ndcg_improvement_vs_average_single": 0.023895563086953064,
+          "ndcg_regret_vs_best_single": -0.0196065064997743,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.2856432529223
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02348356009070296,
+          "ndcg_improvement_vs_average_single": 0.027954947363509897,
+          "ndcg_regret_vs_best_single": -0.023665890776331133,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.7588690304384427
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.5204535147392291,
+      "average_single_ndcg@10": 0.3188521831215917,
+      "best_single_mrr@10": 0.5218310657596372,
+      "best_single_ndcg@10": 0.3257221095640513,
+      "budget": 20,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.02731670445956147,
+          "ndcg_improvement_vs_average_single": 0.031084504598969442,
+          "ndcg_regret_vs_best_single": -0.024214578156509847,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.76236080250086
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.027877928949357478,
+          "ndcg_improvement_vs_average_single": 0.028691931168002283,
+          "ndcg_regret_vs_best_single": -0.021822004725542687,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.588226956163011
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.03424603174603169,
+          "ndcg_improvement_vs_average_single": 0.019050068489373018,
+          "ndcg_regret_vs_best_single": -0.012180142046913423,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8864827119278946
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02840513983371129,
+          "ndcg_improvement_vs_average_single": 0.026220710930032143,
+          "ndcg_regret_vs_best_single": -0.019350784487572548,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.408369117897323
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.5082842025699168,
+      "average_single_ndcg@10": 0.3076512880184667,
+      "best_single_mrr@10": 0.5214928193499622,
+      "best_single_ndcg@10": 0.31016502378112504,
+      "budget": 20,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.0368537414965987,
+          "ndcg_improvement_vs_average_single": 0.032046295550873904,
+          "ndcg_regret_vs_best_single": -0.029532559788215562,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.874237106963084
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03765306122448986,
+          "ndcg_improvement_vs_average_single": 0.03042584423549216,
+          "ndcg_regret_vs_best_single": -0.02791210847283382,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.551917764681046
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.02887944066515502,
+          "ndcg_improvement_vs_average_single": 0.025886433369515516,
+          "ndcg_regret_vs_best_single": -0.023372697606857173,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.648996516272642
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.02887944066515502,
+          "ndcg_improvement_vs_average_single": 0.025886433369515516,
+          "ndcg_regret_vs_best_single": -0.023372697606857173,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.648996516272642
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.5409334845049132,
+      "average_single_ndcg@10": 0.3321503858438464,
+      "best_single_mrr@10": 0.5429875283446712,
+      "best_single_ndcg@10": 0.33778386570807667,
+      "budget": 50,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.03430650037792882,
+          "ndcg_improvement_vs_average_single": 0.0335689699038777,
+          "ndcg_regret_vs_best_single": -0.027935490039647404,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.479416871357207
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.033331443688586426,
+          "ndcg_improvement_vs_average_single": 0.03250222778653539,
+          "ndcg_regret_vs_best_single": -0.026868747922305092,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.3847380810667174
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.035842781557067216,
+          "ndcg_improvement_vs_average_single": 0.02845120985308497,
+          "ndcg_regret_vs_best_single": -0.022817729988854674,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.025189628681869
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.031075207860922105,
+          "ndcg_improvement_vs_average_single": 0.030306216584151946,
+          "ndcg_regret_vs_best_single": -0.02467273671992165,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.189830913977421
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.5093754724111867,
+      "average_single_ndcg@10": 0.3013740850886615,
+      "best_single_mrr@10": 0.5109504913076341,
+      "best_single_ndcg@10": 0.3063851536894775,
+      "budget": 50,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.02862906273620547,
+          "ndcg_improvement_vs_average_single": 0.025915804592657465,
+          "ndcg_regret_vs_best_single": -0.02090473599184145,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.0858560974836053
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.030418556311413436,
+          "ndcg_improvement_vs_average_single": 0.026923007131669285,
+          "ndcg_regret_vs_best_single": -0.02191193853085327,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.1863538774229783
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.03867819349962198,
+          "ndcg_improvement_vs_average_single": 0.02741356477900264,
+          "ndcg_regret_vs_best_single": -0.022402496178186626,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.2353012862903676
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.027096560846560758,
+          "ndcg_improvement_vs_average_single": 0.025991546630323603,
+          "ndcg_regret_vs_best_single": -0.020980478029507588,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.0934135711184507
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.5088567649281934,
+      "average_single_ndcg@10": 0.30480384719418496,
+      "best_single_mrr@10": 0.5100302343159486,
+      "best_single_ndcg@10": 0.30907019620531945,
+      "budget": 50,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.03326152683295547,
+          "ndcg_improvement_vs_average_single": 0.02889056651963956,
+          "ndcg_regret_vs_best_single": -0.024624217508505075,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.8858653434400217
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04104308390022682,
+          "ndcg_improvement_vs_average_single": 0.027194096587585093,
+          "ndcg_regret_vs_best_single": -0.022927747576450608,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.6870454710354243
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.038286092214663725,
+          "ndcg_improvement_vs_average_single": 0.02761915747536242,
+          "ndcg_regret_vs_best_single": -0.023352808464227937,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.736861002613829
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.024143990929705206,
+          "ndcg_improvement_vs_average_single": 0.025336065130780072,
+          "ndcg_regret_vs_best_single": -0.021069716119645587,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.4692911977732193
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.5037037037037038,
+      "average_single_ndcg@10": 0.3038168757144337,
+      "best_single_mrr@10": 0.5038340891912321,
+      "best_single_ndcg@10": 0.3098509009099439,
+      "budget": 50,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.041436130007558525,
+          "ndcg_improvement_vs_average_single": 0.028749089374787762,
+          "ndcg_regret_vs_best_single": -0.0227150641792776,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.882248038687316
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.043720710506424676,
+          "ndcg_improvement_vs_average_single": 0.029853240886433374,
+          "ndcg_regret_vs_best_single": -0.023819215690923212,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.973741815715891
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.045857898715041534,
+          "ndcg_improvement_vs_average_single": 0.02901388404670019,
+          "ndcg_regret_vs_best_single": -0.022979858851190027,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.9041898323766646
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.03672902494331065,
+          "ndcg_improvement_vs_average_single": 0.027696209850009867,
+          "ndcg_regret_vs_best_single": -0.021662184654499705,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.795002834146131
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.5232227891156462,
+      "average_single_ndcg@10": 0.3167287597980617,
+      "best_single_mrr@10": 0.525587679516251,
+      "best_single_ndcg@10": 0.32101781638524046,
+      "budget": 50,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.029985827664399167,
+          "ndcg_improvement_vs_average_single": 0.026284249066810428,
+          "ndcg_regret_vs_best_single": -0.021995192479631664,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.564106118975155
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.032291194255479994,
+          "ndcg_improvement_vs_average_single": 0.02606005881207929,
+          "ndcg_regret_vs_best_single": -0.021771002224900526,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.5379709712830834
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.029122260015117196,
+          "ndcg_improvement_vs_average_single": 0.02377467035719749,
+          "ndcg_regret_vs_best_single": -0.019485613770018728,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.271550091955742
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.029122260015117196,
+          "ndcg_improvement_vs_average_single": 0.02377467035719749,
+          "ndcg_regret_vs_best_single": -0.019485613770018728,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.271550091955742
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.5204535147392291,
+      "average_single_ndcg@10": 0.3188521831215917,
+      "best_single_mrr@10": 0.5218310657596372,
+      "best_single_ndcg@10": 0.3257221095640513,
+      "budget": 50,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.03128117913832196,
+          "ndcg_improvement_vs_average_single": 0.029714541660116445,
+          "ndcg_regret_vs_best_single": -0.02284461521765685,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.662653553061773
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.033110355253212376,
+          "ndcg_improvement_vs_average_single": 0.03178285232085276,
+          "ndcg_regret_vs_best_single": -0.024912925878393166,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.813187236213977
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.0377588813303098,
+          "ndcg_improvement_vs_average_single": 0.025403891970874226,
+          "ndcg_regret_vs_best_single": -0.01853396552841463,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.3489202310715798
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.028539304610733063,
+          "ndcg_improvement_vs_average_single": 0.024480995515304804,
+          "ndcg_regret_vs_best_single": -0.01761106907284521,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.281750919776959
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.5082842025699168,
+      "average_single_ndcg@10": 0.3076512880184667,
+      "best_single_mrr@10": 0.5214928193499622,
+      "best_single_ndcg@10": 0.31016502378112504,
+      "budget": 50,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.03448223733938027,
+          "ndcg_improvement_vs_average_single": 0.028984055521136476,
+          "ndcg_regret_vs_best_single": -0.026470319758478134,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.265135690014822
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03520030234315952,
+          "ndcg_improvement_vs_average_single": 0.028399604036339454,
+          "ndcg_regret_vs_best_single": -0.025885868273681112,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.1488841146744315
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.025483749055177696,
+          "ndcg_improvement_vs_average_single": 0.025750771641787185,
+          "ndcg_regret_vs_best_single": -0.023237035879128842,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.622012429531388
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.025483749055177696,
+          "ndcg_improvement_vs_average_single": 0.025750771641787185,
+          "ndcg_regret_vs_best_single": -0.023237035879128842,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.622012429531388
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.5409334845049132,
+      "average_single_ndcg@10": 0.3321503858438464,
+      "best_single_mrr@10": 0.5429875283446712,
+      "best_single_ndcg@10": 0.33778386570807667,
+      "budget": 100,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.03167800453514724,
+          "ndcg_improvement_vs_average_single": 0.03603108646682085,
+          "ndcg_regret_vs_best_single": -0.030397606602590554,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.6979422430884816
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03057823129251691,
+          "ndcg_improvement_vs_average_single": 0.03475276981616654,
+          "ndcg_regret_vs_best_single": -0.029119289951936245,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.5844851365164883
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.028631897203325596,
+          "ndcg_improvement_vs_average_single": 0.0320757587775673,
+          "ndcg_regret_vs_best_single": -0.026442278913337003,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.346886786729451
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.028631897203325596,
+          "ndcg_improvement_vs_average_single": 0.0320757587775673,
+          "ndcg_regret_vs_best_single": -0.026442278913337003,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.346886786729451
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.5093754724111867,
+      "average_single_ndcg@10": 0.3013740850886615,
+      "best_single_mrr@10": 0.5109504913076341,
+      "best_single_ndcg@10": 0.3063851536894775,
+      "budget": 100,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.034392479213907756,
+          "ndcg_improvement_vs_average_single": 0.03022999691891004,
+          "ndcg_regret_vs_best_single": -0.025218928318094025,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.516322398179433
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.028247354497354382,
+          "ndcg_improvement_vs_average_single": 0.028297710077254234,
+          "ndcg_regret_vs_best_single": -0.02328664147643822,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.3235205234115295
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.03789588057445192,
+          "ndcg_improvement_vs_average_single": 0.030939376962300535,
+          "ndcg_regret_vs_best_single": -0.02592830836148452,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.5871037124958023
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.03789588057445192,
+          "ndcg_improvement_vs_average_single": 0.030939376962300535,
+          "ndcg_regret_vs_best_single": -0.02592830836148452,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.5871037124958023
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.5088567649281934,
+      "average_single_ndcg@10": 0.30480384719418496,
+      "best_single_mrr@10": 0.5100302343159486,
+      "best_single_ndcg@10": 0.30907019620531945,
+      "budget": 100,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.038257747543461895,
+          "ndcg_improvement_vs_average_single": 0.03358169175993636,
+          "ndcg_regret_vs_best_single": -0.029315342748801876,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.435647514103246
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04100151171579758,
+          "ndcg_improvement_vs_average_single": 0.030415495188333475,
+          "ndcg_regret_vs_best_single": -0.02614914617719899,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.064581227292246
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.03182161753590329,
+          "ndcg_improvement_vs_average_single": 0.030295023663429455,
+          "ndcg_regret_vs_best_single": -0.02602867465229497,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.050462419315026
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.03182161753590329,
+          "ndcg_improvement_vs_average_single": 0.030295023663429455,
+          "ndcg_regret_vs_best_single": -0.02602867465229497,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.050462419315026
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.5037037037037038,
+      "average_single_ndcg@10": 0.3038168757144337,
+      "best_single_mrr@10": 0.5038340891912321,
+      "best_single_ndcg@10": 0.3098509009099439,
+      "budget": 100,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04450869236583521,
+          "ndcg_improvement_vs_average_single": 0.033698203607125,
+          "ndcg_regret_vs_best_single": -0.027664178411614837,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.2923485994224477
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.041967120181405804,
+          "ndcg_improvement_vs_average_single": 0.03276317686346375,
+          "ndcg_regret_vs_best_single": -0.026729151667953588,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.214869080082937
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.038089569160997705,
+          "ndcg_improvement_vs_average_single": 0.03266758872027009,
+          "ndcg_regret_vs_best_single": -0.02663356352475993,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.2069483190572132
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.038089569160997705,
+          "ndcg_improvement_vs_average_single": 0.03266758872027009,
+          "ndcg_regret_vs_best_single": -0.02663356352475993,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.2069483190572132
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.5232227891156462,
+      "average_single_ndcg@10": 0.3167287597980617,
+      "best_single_mrr@10": 0.525587679516251,
+      "best_single_ndcg@10": 0.32101781638524046,
+      "budget": 100,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.034619236583522284,
+          "ndcg_improvement_vs_average_single": 0.03362768523289783,
+          "ndcg_regret_vs_best_single": -0.029338628645719067,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.42017271740137
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.031688397581254746,
+          "ndcg_improvement_vs_average_single": 0.030165551061430207,
+          "ndcg_regret_vs_best_single": -0.025876494474251444,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.016571820432917
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.042009637188208715,
+          "ndcg_improvement_vs_average_single": 0.031871134137728074,
+          "ndcg_regret_vs_best_single": -0.02758207755054931,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.215401451335473
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.042009637188208715,
+          "ndcg_improvement_vs_average_single": 0.031871134137728074,
+          "ndcg_regret_vs_best_single": -0.02758207755054931,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.215401451335473
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.5204535147392291,
+      "average_single_ndcg@10": 0.3188521831215917,
+      "best_single_mrr@10": 0.5218310657596372,
+      "best_single_ndcg@10": 0.3257221095640513,
+      "budget": 100,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.03541761148903999,
+          "ndcg_improvement_vs_average_single": 0.03031959482825175,
+          "ndcg_regret_vs_best_single": -0.023449668385792155,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.7066899174394012
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02972978080120925,
+          "ndcg_improvement_vs_average_single": 0.030724330303007252,
+          "ndcg_regret_vs_best_single": -0.023854403860547657,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.7361469631694715
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.036738473167044594,
+          "ndcg_improvement_vs_average_single": 0.02688827045008202,
+          "ndcg_regret_vs_best_single": -0.020018344007622424,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.456954756014496
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.036738473167044594,
+          "ndcg_improvement_vs_average_single": 0.02688827045008202,
+          "ndcg_regret_vs_best_single": -0.020018344007622424,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.456954756014496
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.5082842025699168,
+      "average_single_ndcg@10": 0.3076512880184667,
+      "best_single_mrr@10": 0.5214928193499622,
+      "best_single_ndcg@10": 0.31016502378112504,
+      "budget": 100,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.03702569916855636,
+          "ndcg_improvement_vs_average_single": 0.033352294385337045,
+          "ndcg_regret_vs_best_single": -0.030838558622678702,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 7.134009604507139
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03300264550264553,
+          "ndcg_improvement_vs_average_single": 0.029917721157198984,
+          "ndcg_regret_vs_best_single": -0.027403985394540642,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.450848454644294
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.03714852607709762,
+          "ndcg_improvement_vs_average_single": 0.031025710502377846,
+          "ndcg_regret_vs_best_single": -0.028511974739719503,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.671235450293975
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.03714852607709762,
+          "ndcg_improvement_vs_average_single": 0.031025710502377846,
+          "ndcg_regret_vs_best_single": -0.028511974739719503,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.671235450293975
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.5409334845049132,
+      "average_single_ndcg@10": 0.3321503858438464,
+      "best_single_mrr@10": 0.5429875283446712,
+      "best_single_ndcg@10": 0.33778386570807667,
+      "budget": 200,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.030196523053665825,
+          "ndcg_improvement_vs_average_single": 0.03339216362023706,
+          "ndcg_regret_vs_best_single": -0.027758683756006763,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.4637244141281265
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02966175359032497,
+          "ndcg_improvement_vs_average_single": 0.034590643196336035,
+          "ndcg_regret_vs_best_single": -0.02895716333210574,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.570095574137831
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.024589947089946995,
+          "ndcg_improvement_vs_average_single": 0.02879077666903984,
+          "ndcg_regret_vs_best_single": -0.023157296804809546,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.055327911247761
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.024589947089946995,
+          "ndcg_improvement_vs_average_single": 0.02879077666903984,
+          "ndcg_regret_vs_best_single": -0.023157296804809546,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.055327911247761
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.5093754724111867,
+      "average_single_ndcg@10": 0.3013740850886615,
+      "best_single_mrr@10": 0.5109504913076341,
+      "best_single_ndcg@10": 0.3063851536894775,
+      "budget": 200,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.032805177626606175,
+          "ndcg_improvement_vs_average_single": 0.02776262547045566,
+          "ndcg_regret_vs_best_single": -0.022751556869639644,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.270130253847924
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.029579554043839718,
+          "ndcg_improvement_vs_average_single": 0.029407113422769693,
+          "ndcg_regret_vs_best_single": -0.024396044821953677,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.4342158095761213
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.03202853363567648,
+          "ndcg_improvement_vs_average_single": 0.028259123299272493,
+          "ndcg_regret_vs_best_single": -0.023248054698456477,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.3196703687782985
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.03202853363567648,
+          "ndcg_improvement_vs_average_single": 0.028259123299272493,
+          "ndcg_regret_vs_best_single": -0.023248054698456477,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.3196703687782985
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.5088567649281934,
+      "average_single_ndcg@10": 0.30480384719418496,
+      "best_single_mrr@10": 0.5100302343159486,
+      "best_single_ndcg@10": 0.30907019620531945,
+      "budget": 200,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.03689531368102805,
+          "ndcg_improvement_vs_average_single": 0.03208911812759119,
+          "ndcg_regret_vs_best_single": -0.027822769116456703,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.260723518381165
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04182350718065009,
+          "ndcg_improvement_vs_average_single": 0.0315731723113562,
+          "ndcg_regret_vs_best_single": -0.027306823300221716,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.200256616249102
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.027688964474678834,
+          "ndcg_improvement_vs_average_single": 0.026999177285904175,
+          "ndcg_regret_vs_best_single": -0.02273282827476969,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.6642016646365323
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.027688964474678834,
+          "ndcg_improvement_vs_average_single": 0.026999177285904175,
+          "ndcg_regret_vs_best_single": -0.02273282827476969,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.6642016646365323
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.5037037037037038,
+      "average_single_ndcg@10": 0.3038168757144337,
+      "best_single_mrr@10": 0.5038340891912321,
+      "best_single_ndcg@10": 0.3098509009099439,
+      "budget": 200,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.043040438397581204,
+          "ndcg_improvement_vs_average_single": 0.03337041346198344,
+          "ndcg_regret_vs_best_single": -0.027336388266473277,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.265186785001664
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.043582766439909215,
+          "ndcg_improvement_vs_average_single": 0.033703967205653274,
+          "ndcg_regret_vs_best_single": -0.02766994201014311,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.292826190942331
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.034576719576719483,
+          "ndcg_improvement_vs_average_single": 0.02920051452307615,
+          "ndcg_regret_vs_best_single": -0.023166489327565987,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.919654673036829
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.034576719576719483,
+          "ndcg_improvement_vs_average_single": 0.02920051452307615,
+          "ndcg_regret_vs_best_single": -0.023166489327565987,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.919654673036829
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.5232227891156462,
+      "average_single_ndcg@10": 0.3167287597980617,
+      "best_single_mrr@10": 0.525587679516251,
+      "best_single_ndcg@10": 0.32101781638524046,
+      "budget": 200,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.030770030234316015,
+          "ndcg_improvement_vs_average_single": 0.029949089834846288,
+          "ndcg_regret_vs_best_single": -0.025660033247667524,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.9913376900147055
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.030809712773998466,
+          "ndcg_improvement_vs_average_single": 0.029568140945558485,
+          "ndcg_regret_vs_best_single": -0.025279084358379722,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.9469282865078172
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.03555461073318211,
+          "ndcg_improvement_vs_average_single": 0.028311722811254714,
+          "ndcg_regret_vs_best_single": -0.02402266622407595,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.8004603968022392
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.03555461073318211,
+          "ndcg_improvement_vs_average_single": 0.028311722811254714,
+          "ndcg_regret_vs_best_single": -0.02402266622407595,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.8004603968022392
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.5204535147392291,
+      "average_single_ndcg@10": 0.3188521831215917,
+      "best_single_mrr@10": 0.5218310657596372,
+      "best_single_ndcg@10": 0.3257221095640513,
+      "budget": 200,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.03172713529856386,
+          "ndcg_improvement_vs_average_single": 0.028841128571452768,
+          "ndcg_regret_vs_best_single": -0.021971202128993172,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.59908568985544
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02876606198034759,
+          "ndcg_improvement_vs_average_single": 0.03054100261711562,
+          "ndcg_regret_vs_best_single": -0.023671076174656025,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.72280419396902
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.029397203325774668,
+          "ndcg_improvement_vs_average_single": 0.025176360858745528,
+          "ndcg_regret_vs_best_single": -0.018306434416285933,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.332360293055181
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.029397203325774668,
+          "ndcg_improvement_vs_average_single": 0.025176360858745528,
+          "ndcg_regret_vs_best_single": -0.018306434416285933,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.332360293055181
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.5082842025699168,
+      "average_single_ndcg@10": 0.3076512880184667,
+      "best_single_mrr@10": 0.5214928193499622,
+      "best_single_ndcg@10": 0.31016502378112504,
+      "budget": 200,
+      "dataset": "nfcorpus",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.034869614512471725,
+          "ndcg_improvement_vs_average_single": 0.03156625327051543,
+          "ndcg_regret_vs_best_single": -0.02905251750785709,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.778753268230007
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.034089191232048455,
+          "ndcg_improvement_vs_average_single": 0.03129966096776449,
+          "ndcg_regret_vs_best_single": -0.028785925205106144,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.725726154817535
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.02303665910808772,
+          "ndcg_improvement_vs_average_single": 0.021145667718768413,
+          "ndcg_regret_vs_best_single": -0.01863193195611007,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.706024362800629
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.03227324263038556,
+          "ndcg_improvement_vs_average_single": 0.028607467655247576,
+          "ndcg_regret_vs_best_single": -0.026093731892589234,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.190229673343713
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.6345848595848596,
+      "average_single_ndcg@10": 0.6718165459871417,
+      "best_single_mrr@10": 0.6407244607244608,
+      "best_single_ndcg@10": 0.6762632809912035,
+      "budget": 20,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04627391127391134,
+          "ndcg_improvement_vs_average_single": 0.043752871253062486,
+          "ndcg_regret_vs_best_single": -0.0393061362490007,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.419662540391687
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03262515262515264,
+          "ndcg_improvement_vs_average_single": 0.0400716044301338,
+          "ndcg_regret_vs_best_single": -0.035624869426072014,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.005733351945995
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.049926739926740016,
+          "ndcg_improvement_vs_average_single": 0.04901484787909738,
+          "ndcg_regret_vs_best_single": -0.04456811287503559,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.011329979673366
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.049926739926740016,
+          "ndcg_improvement_vs_average_single": 0.04901484787909738,
+          "ndcg_regret_vs_best_single": -0.04456811287503559,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 6.011329979673366
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.6191788766788766,
+      "average_single_ndcg@10": 0.6574784697081282,
+      "best_single_mrr@10": 0.6317501017501017,
+      "best_single_ndcg@10": 0.6680093338221503,
+      "budget": 20,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04727207977207981,
+          "ndcg_improvement_vs_average_single": 0.040724723534984686,
+          "ndcg_regret_vs_best_single": -0.030193859420962532,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.4335888818828515
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03524725274725282,
+          "ndcg_improvement_vs_average_single": 0.0403376612954055,
+          "ndcg_regret_vs_best_single": -0.02980679718138335,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.4152113662588586
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.05791717541717545,
+          "ndcg_improvement_vs_average_single": 0.05362290846203854,
+          "ndcg_regret_vs_best_single": -0.04309204434801639,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.0459880538501145
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05791717541717545,
+          "ndcg_improvement_vs_average_single": 0.05362290846203854,
+          "ndcg_regret_vs_best_single": -0.04309204434801639,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.0459880538501145
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.627983312983313,
+      "average_single_ndcg@10": 0.6608322165772809,
+      "best_single_mrr@10": 0.642085877085877,
+      "best_single_ndcg@10": 0.6710462285952398,
+      "budget": 20,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04321123321123321,
+          "ndcg_improvement_vs_average_single": 0.040557290727073925,
+          "ndcg_regret_vs_best_single": -0.030343278709115018,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.4853751227119956
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03201261701261704,
+          "ndcg_improvement_vs_average_single": 0.04123514992088073,
+          "ndcg_regret_vs_best_single": -0.031021137902921825,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.5185579304380368
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.04113756613756614,
+          "ndcg_improvement_vs_average_single": 0.034943098906835446,
+          "ndcg_regret_vs_best_single": -0.02472908688887654,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.2105471799620133
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05137769637769629,
+          "ndcg_improvement_vs_average_single": 0.0526632972383535,
+          "ndcg_regret_vs_best_single": -0.042449285220394595,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.077992719499333
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.5937474562474563,
+      "average_single_ndcg@10": 0.6318240147554761,
+      "best_single_mrr@10": 0.612903947903948,
+      "best_single_ndcg@10": 0.6490266366394436,
+      "budget": 20,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.044083231583231575,
+          "ndcg_improvement_vs_average_single": 0.04367119759107452,
+          "ndcg_regret_vs_best_single": -0.026468575707107034,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7693180692349963
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03143976393976389,
+          "ndcg_improvement_vs_average_single": 0.039748468640197876,
+          "ndcg_regret_vs_best_single": -0.022545846756230392,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.6553026308519507
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.050112942612942524,
+          "ndcg_improvement_vs_average_single": 0.05213735494409233,
+          "ndcg_regret_vs_best_single": -0.034934733060124845,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.015389784643336
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.050112942612942524,
+          "ndcg_improvement_vs_average_single": 0.05213735494409233,
+          "ndcg_regret_vs_best_single": -0.034934733060124845,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.015389784643336
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.6138695563695564,
+      "average_single_ndcg@10": 0.6471033252090173,
+      "best_single_mrr@10": 0.6305331705331706,
+      "best_single_ndcg@10": 0.6574570782604745,
+      "budget": 20,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04273199023199015,
+          "ndcg_improvement_vs_average_single": 0.039374610333323234,
+          "ndcg_regret_vs_best_single": -0.029020857281865986,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.4014655911549663
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.022894790394790365,
+          "ndcg_improvement_vs_average_single": 0.029631081360358302,
+          "ndcg_regret_vs_best_single": -0.019277328308901054,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9309343294694454
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.04406288156288152,
+          "ndcg_improvement_vs_average_single": 0.042640061220844405,
+          "ndcg_regret_vs_best_single": -0.03228630816938716,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.5591596597353248
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.04406288156288152,
+          "ndcg_improvement_vs_average_single": 0.042640061220844405,
+          "ndcg_regret_vs_best_single": -0.03228630816938716,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.5591596597353248
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.6249023199023199,
+      "average_single_ndcg@10": 0.658681479638533,
+      "best_single_mrr@10": 0.6426048026048026,
+      "best_single_ndcg@10": 0.673843206476677,
+      "budget": 20,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05389906389906396,
+          "ndcg_improvement_vs_average_single": 0.04759804701755477,
+          "ndcg_regret_vs_best_single": -0.03243632017941078,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0696776338763527
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.0402787952787953,
+          "ndcg_improvement_vs_average_single": 0.046459708628880825,
+          "ndcg_regret_vs_best_single": -0.03129798179073684,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0321377678430816
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.06193732193732193,
+          "ndcg_improvement_vs_average_single": 0.06062199749841868,
+          "ndcg_regret_vs_best_single": -0.04546027066027469,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.499178528461071
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06193732193732193,
+          "ndcg_improvement_vs_average_single": 0.06062199749841868,
+          "ndcg_regret_vs_best_single": -0.04546027066027469,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.499178528461071
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.6312586487586487,
+      "average_single_ndcg@10": 0.6679657916092325,
+      "best_single_mrr@10": 0.6620492470492471,
+      "best_single_ndcg@10": 0.6889792845861449,
+      "budget": 20,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06307590557590559,
+          "ndcg_improvement_vs_average_single": 0.050519549525162244,
+          "ndcg_regret_vs_best_single": -0.029506056548249893,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7020740573846598
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.04207061457061467,
+          "ndcg_improvement_vs_average_single": 0.04234310119947515,
+          "ndcg_regret_vs_best_single": -0.0213296082225628,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.5075217205915674
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.041594424094424265,
+          "ndcg_improvement_vs_average_single": 0.03517740990662721,
+          "ndcg_regret_vs_best_single": -0.01416391692971486,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.3370195746437015
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06995014245014253,
+          "ndcg_improvement_vs_average_single": 0.06074977550918881,
+          "ndcg_regret_vs_best_single": -0.03973628253227646,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9454944633891862
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.6345848595848596,
+      "average_single_ndcg@10": 0.6718165459871417,
+      "best_single_mrr@10": 0.6407244607244608,
+      "best_single_ndcg@10": 0.6762632809912035,
+      "budget": 50,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04695156695156699,
+          "ndcg_improvement_vs_average_single": 0.041651809120967664,
+          "ndcg_regret_vs_best_single": -0.03720507411690588,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.183414806922563
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.024894179894179858,
+          "ndcg_improvement_vs_average_single": 0.028716835233975502,
+          "ndcg_regret_vs_best_single": -0.024270100229913716,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.728979825393761
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.04874033374033371,
+          "ndcg_improvement_vs_average_single": 0.045134630452881574,
+          "ndcg_regret_vs_best_single": -0.04068789544881979,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.575030377530278
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.04874033374033371,
+          "ndcg_improvement_vs_average_single": 0.045134630452881574,
+          "ndcg_regret_vs_best_single": -0.04068789544881979,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.575030377530278
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.6191788766788766,
+      "average_single_ndcg@10": 0.6574784697081282,
+      "best_single_mrr@10": 0.6317501017501017,
+      "best_single_ndcg@10": 0.6680093338221503,
+      "budget": 50,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05324888074888079,
+          "ndcg_improvement_vs_average_single": 0.04905363393483453,
+          "ndcg_regret_vs_best_single": -0.038522769820812375,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.829041254530964
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03364774114774116,
+          "ndcg_improvement_vs_average_single": 0.03799300451979004,
+          "ndcg_regret_vs_best_single": -0.027462140405767888,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.303888271105941
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.05525132275132283,
+          "ndcg_improvement_vs_average_single": 0.05231082029513945,
+          "ndcg_regret_vs_best_single": -0.041779956181117295,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.983690784001574
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06726597476597485,
+          "ndcg_improvement_vs_average_single": 0.06398998453599014,
+          "ndcg_regret_vs_best_single": -0.05345912042196799,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.5382114821321076
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.627983312983313,
+      "average_single_ndcg@10": 0.6608322165772809,
+      "best_single_mrr@10": 0.642085877085877,
+      "best_single_ndcg@10": 0.6710462285952398,
+      "budget": 50,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04974358974358972,
+          "ndcg_improvement_vs_average_single": 0.04726093774276674,
+          "ndcg_regret_vs_best_single": -0.03704692572480783,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.8135344691033084
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.026595441595441582,
+          "ndcg_improvement_vs_average_single": 0.03244166588261432,
+          "ndcg_regret_vs_best_single": -0.022227653864655417,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0880961284152293
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.052207977207977097,
+          "ndcg_improvement_vs_average_single": 0.05137244434287902,
+          "ndcg_regret_vs_best_single": -0.04115843232492011,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.0148024230122705
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.052207977207977097,
+          "ndcg_improvement_vs_average_single": 0.05137244434287902,
+          "ndcg_regret_vs_best_single": -0.04115843232492011,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.0148024230122705
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.5937474562474563,
+      "average_single_ndcg@10": 0.6318240147554761,
+      "best_single_mrr@10": 0.612903947903948,
+      "best_single_ndcg@10": 0.6490266366394436,
+      "budget": 50,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05046703296703292,
+          "ndcg_improvement_vs_average_single": 0.05098613850487055,
+          "ndcg_regret_vs_best_single": -0.033783516620903065,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9819292910340827
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02786833536833533,
+          "ndcg_improvement_vs_average_single": 0.037283429513757294,
+          "ndcg_regret_vs_best_single": -0.02008080762978981,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.5836554382592343
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.054577737077737054,
+          "ndcg_improvement_vs_average_single": 0.0577494983013106,
+          "ndcg_regret_vs_best_single": -0.040546876417343114,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.178508621849445
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.054577737077737054,
+          "ndcg_improvement_vs_average_single": 0.0577494983013106,
+          "ndcg_regret_vs_best_single": -0.040546876417343114,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.178508621849445
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.6138695563695564,
+      "average_single_ndcg@10": 0.6471033252090173,
+      "best_single_mrr@10": 0.6305331705331706,
+      "best_single_ndcg@10": 0.6574570782604745,
+      "budget": 50,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04743284493284483,
+          "ndcg_improvement_vs_average_single": 0.0470153476995695,
+          "ndcg_regret_vs_best_single": -0.03666159464811225,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.7704495396938444
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.021920024420024387,
+          "ndcg_improvement_vs_average_single": 0.03083817451639681,
+          "ndcg_regret_vs_best_single": -0.02048442146493956,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9892268708329186
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.052740130240130134,
+          "ndcg_improvement_vs_average_single": 0.04965503895399648,
+          "ndcg_regret_vs_best_single": -0.03930128590253923,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.8979246321220664
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.052740130240130134,
+          "ndcg_improvement_vs_average_single": 0.04965503895399648,
+          "ndcg_regret_vs_best_single": -0.03930128590253923,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.8979246321220664
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.6249023199023199,
+      "average_single_ndcg@10": 0.658681479638533,
+      "best_single_mrr@10": 0.6426048026048026,
+      "best_single_ndcg@10": 0.673843206476677,
+      "budget": 50,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06385022385022388,
+          "ndcg_improvement_vs_average_single": 0.05959645719430051,
+          "ndcg_regret_vs_best_single": -0.04443473035615653,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.465358492159596
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.038807488807488855,
+          "ndcg_improvement_vs_average_single": 0.04471005447158305,
+          "ndcg_regret_vs_best_single": -0.029548327633439064,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9744380685945768
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.06466829466829471,
+          "ndcg_improvement_vs_average_single": 0.06310910337209785,
+          "ndcg_regret_vs_best_single": -0.04794737653395387,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.581197743693933
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.0711212861212861,
+          "ndcg_improvement_vs_average_single": 0.06714378046613245,
+          "ndcg_regret_vs_best_single": -0.05198205362798847,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.7142524127664607
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.6312586487586487,
+      "average_single_ndcg@10": 0.6679657916092325,
+      "best_single_mrr@10": 0.6620492470492471,
+      "best_single_ndcg@10": 0.6889792845861449,
+      "budget": 50,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06095543345543364,
+          "ndcg_improvement_vs_average_single": 0.05145231661199268,
+          "ndcg_regret_vs_best_single": -0.030438823635080325,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7242685370900392
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.036454008954008965,
+          "ndcg_improvement_vs_average_single": 0.03750518201770692,
+          "ndcg_regret_vs_best_single": -0.016491689040794566,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.3924071323818947
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.0495166870166871,
+          "ndcg_improvement_vs_average_single": 0.04434929209755012,
+          "ndcg_regret_vs_best_single": -0.023335799120637768,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.555257499223877
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06727207977207983,
+          "ndcg_improvement_vs_average_single": 0.06067363063912912,
+          "ndcg_regret_vs_best_single": -0.039660137662216766,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9436826544209354
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.6345848595848596,
+      "average_single_ndcg@10": 0.6718165459871417,
+      "best_single_mrr@10": 0.6407244607244608,
+      "best_single_ndcg@10": 0.6762632809912035,
+      "budget": 100,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04801994301994306,
+          "ndcg_improvement_vs_average_single": 0.040191988050338856,
+          "ndcg_regret_vs_best_single": -0.03574525304627707,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.019269532997384
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.023703703703703782,
+          "ndcg_improvement_vs_average_single": 0.025504596234570687,
+          "ndcg_regret_vs_best_single": -0.0210578612305089,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.367789086967629
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.043475783475783625,
+          "ndcg_improvement_vs_average_single": 0.03908557145131908,
+          "ndcg_regret_vs_best_single": -0.03463883644725729,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.894861782365838
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.043475783475783625,
+          "ndcg_improvement_vs_average_single": 0.03908557145131908,
+          "ndcg_regret_vs_best_single": -0.03463883644725729,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 4.894861782365838
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.6191788766788766,
+      "average_single_ndcg@10": 0.6574784697081282,
+      "best_single_mrr@10": 0.6317501017501017,
+      "best_single_ndcg@10": 0.6680093338221503,
+      "budget": 100,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.054872812372812385,
+          "ndcg_improvement_vs_average_single": 0.05161364502921628,
+          "ndcg_regret_vs_best_single": -0.04108278091519413,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.9505892617345237
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03120980870980883,
+          "ndcg_improvement_vs_average_single": 0.03518287177186086,
+          "ndcg_regret_vs_best_single": -0.024652007657838704,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.170464616717152
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.05262006512006512,
+          "ndcg_improvement_vs_average_single": 0.05299348434126472,
+          "ndcg_regret_vs_best_single": -0.042462620227242565,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.016103321032428
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06251424501424507,
+          "ndcg_improvement_vs_average_single": 0.05840793023836055,
+          "ndcg_regret_vs_best_single": -0.0478770661243384,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.27317842135047
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.627983312983313,
+      "average_single_ndcg@10": 0.6608322165772809,
+      "best_single_mrr@10": 0.642085877085877,
+      "best_single_ndcg@10": 0.6710462285952398,
+      "budget": 100,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.050932030932030914,
+          "ndcg_improvement_vs_average_single": 0.047458371913506214,
+          "ndcg_regret_vs_best_single": -0.03724435989554731,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.8231993378342404
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.023522588522588483,
+          "ndcg_improvement_vs_average_single": 0.0286931344457223,
+          "ndcg_regret_vs_best_single": -0.018479122427763395,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9045966656036952
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.05204314204314209,
+          "ndcg_improvement_vs_average_single": 0.05060700580263111,
+          "ndcg_regret_vs_best_single": -0.040392993784672204,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.9773323995336383
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05204314204314209,
+          "ndcg_improvement_vs_average_single": 0.05060700580263111,
+          "ndcg_regret_vs_best_single": -0.040392993784672204,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.9773323995336383
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.5937474562474563,
+      "average_single_ndcg@10": 0.6318240147554761,
+      "best_single_mrr@10": 0.612903947903948,
+      "best_single_ndcg@10": 0.6490266366394436,
+      "budget": 100,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05308811558811555,
+          "ndcg_improvement_vs_average_single": 0.04966749138971793,
+          "ndcg_regret_vs_best_single": -0.03246486950575045,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9436023684275474
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02561965811965805,
+          "ndcg_improvement_vs_average_single": 0.032607517908373684,
+          "ndcg_regret_vs_best_single": -0.0154048960244062,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.447748492302889
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.058535816035816035,
+          "ndcg_improvement_vs_average_single": 0.059679423777202145,
+          "ndcg_regret_vs_best_single": -0.04247680189323466,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.2346025559284763
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05644993894993888,
+          "ndcg_improvement_vs_average_single": 0.05569532275415079,
+          "ndcg_regret_vs_best_single": -0.038492700870183305,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.1188033175936365
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.6138695563695564,
+      "average_single_ndcg@10": 0.6471033252090173,
+      "best_single_mrr@10": 0.6305331705331706,
+      "best_single_ndcg@10": 0.6574570782604745,
+      "budget": 100,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.04871489621489611,
+          "ndcg_improvement_vs_average_single": 0.044236320314184674,
+          "ndcg_regret_vs_best_single": -0.033882567262727425,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.636245673155145
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.020259462759462665,
+          "ndcg_improvement_vs_average_single": 0.025187500289119424,
+          "ndcg_regret_vs_best_single": -0.014833747237662176,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7163463897554745
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.05002543752543742,
+          "ndcg_improvement_vs_average_single": 0.052371629951637466,
+          "ndcg_regret_vs_best_single": -0.04201787690018022,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.02911334138236
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05481786731786731,
+          "ndcg_improvement_vs_average_single": 0.04966146067722399,
+          "ndcg_regret_vs_best_single": -0.03930770762576674,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.898234747845109
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.6249023199023199,
+      "average_single_ndcg@10": 0.658681479638533,
+      "best_single_mrr@10": 0.6426048026048026,
+      "best_single_ndcg@10": 0.673843206476677,
+      "budget": 100,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.0613349613349613,
+          "ndcg_improvement_vs_average_single": 0.054626312677414024,
+          "ndcg_regret_vs_best_single": -0.03946458583927004,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.3014541899008787
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.035166870166870146,
+          "ndcg_improvement_vs_average_single": 0.03939119529161439,
+          "ndcg_regret_vs_best_single": -0.024229468453470404,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.7990339330119647
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.06020960520960528,
+          "ndcg_improvement_vs_average_single": 0.05476994353048936,
+          "ndcg_regret_vs_best_single": -0.03960821669234538,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.306190815702433
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06483719983719982,
+          "ndcg_improvement_vs_average_single": 0.05845012648462233,
+          "ndcg_regret_vs_best_single": -0.04328839964647835,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.427555057171101
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.6312586487586487,
+      "average_single_ndcg@10": 0.6679657916092325,
+      "best_single_mrr@10": 0.6620492470492471,
+      "best_single_ndcg@10": 0.6889792845861449,
+      "budget": 100,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06741452991453012,
+          "ndcg_improvement_vs_average_single": 0.05622361612238502,
+          "ndcg_regret_vs_best_single": -0.03521012314547267,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.837797961151869
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.037198819698819774,
+          "ndcg_improvement_vs_average_single": 0.03744705710872809,
+          "ndcg_regret_vs_best_single": -0.016433564131815737,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.3910240946108139
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.0591239316239317,
+          "ndcg_improvement_vs_average_single": 0.05711412217571388,
+          "ndcg_regret_vs_best_single": -0.036100629198801526,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8589868718747855
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06940679690679696,
+          "ndcg_improvement_vs_average_single": 0.0597209953267922,
+          "ndcg_regret_vs_best_single": -0.03870750234987985,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9210154254794267
+        }
+      },
+      "seed": 181
+    },
+    {
+      "average_single_mrr@10": 0.6345848595848596,
+      "average_single_ndcg@10": 0.6718165459871417,
+      "best_single_mrr@10": 0.6407244607244608,
+      "best_single_ndcg@10": 0.6762632809912035,
+      "budget": 200,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05101139601139604,
+          "ndcg_improvement_vs_average_single": 0.04637970361100352,
+          "ndcg_regret_vs_best_single": -0.041932968606941734,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.715028955923712
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02548433048433052,
+          "ndcg_improvement_vs_average_single": 0.02918291250439442,
+          "ndcg_regret_vs_best_single": -0.024736177500332635,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.781386509173342
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.04575295075295083,
+          "ndcg_improvement_vs_average_single": 0.04329512702703664,
+          "ndcg_regret_vs_best_single": -0.038848392022974854,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.368192841207034
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.04575295075295083,
+          "ndcg_improvement_vs_average_single": 0.04329512702703664,
+          "ndcg_regret_vs_best_single": -0.038848392022974854,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 5.368192841207034
+        }
+      },
+      "seed": 19
+    },
+    {
+      "average_single_mrr@10": 0.6191788766788766,
+      "average_single_ndcg@10": 0.6574784697081282,
+      "best_single_mrr@10": 0.6317501017501017,
+      "best_single_ndcg@10": 0.6680093338221503,
+      "budget": 200,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05648249898249902,
+          "ndcg_improvement_vs_average_single": 0.053067676134329944,
+          "ndcg_regret_vs_best_single": -0.04253681202030779,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.0196259091250064
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03232905982905987,
+          "ndcg_improvement_vs_average_single": 0.03722581136367642,
+          "ndcg_regret_vs_best_single": -0.026694947249654266,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.2674623355033687
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.05485856735856742,
+          "ndcg_improvement_vs_average_single": 0.05720724273205258,
+          "ndcg_regret_vs_best_single": -0.04667637861803042,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.2161703974453273
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06410154660154677,
+          "ndcg_improvement_vs_average_single": 0.06086010877119541,
+          "ndcg_regret_vs_best_single": -0.050329244657173255,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.3896065941140763
+        }
+      },
+      "seed": 31
+    },
+    {
+      "average_single_mrr@10": 0.627983312983313,
+      "average_single_ndcg@10": 0.6608322165772809,
+      "best_single_mrr@10": 0.642085877085877,
+      "best_single_ndcg@10": 0.6710462285952398,
+      "budget": 200,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05413715913715911,
+          "ndcg_improvement_vs_average_single": 0.05244000713604824,
+          "ndcg_regret_vs_best_single": -0.04222599511808933,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.0670621418814163
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.02521164021164024,
+          "ndcg_improvement_vs_average_single": 0.0322798176050455,
+          "ndcg_regret_vs_best_single": -0.022065805587086595,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0801732731608857
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.06197191697191695,
+          "ndcg_improvement_vs_average_single": 0.0645865934858405,
+          "ndcg_regret_vs_best_single": -0.0543725814678816,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.661666217558799
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05539479039479034,
+          "ndcg_improvement_vs_average_single": 0.05662435726138548,
+          "ndcg_regret_vs_best_single": -0.046410345243426576,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.2718959583083045
+        }
+      },
+      "seed": 47
+    },
+    {
+      "average_single_mrr@10": 0.5937474562474563,
+      "average_single_ndcg@10": 0.6318240147554761,
+      "best_single_mrr@10": 0.612903947903948,
+      "best_single_ndcg@10": 0.6490266366394436,
+      "budget": 200,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.055723443223443136,
+          "ndcg_improvement_vs_average_single": 0.0540862899442458,
+          "ndcg_regret_vs_best_single": -0.03688366806027832,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0720362369486627
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.026738909238909203,
+          "ndcg_improvement_vs_average_single": 0.03465045750018936,
+          "ndcg_regret_vs_best_single": -0.017447835616221874,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.5071272197316323
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.05876373626373621,
+          "ndcg_improvement_vs_average_single": 0.05980485359473253,
+          "ndcg_regret_vs_best_single": -0.04260223171076505,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.238248215827776
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05876373626373621,
+          "ndcg_improvement_vs_average_single": 0.05980485359473253,
+          "ndcg_regret_vs_best_single": -0.04260223171076505,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.238248215827776
+        }
+      },
+      "seed": 73
+    },
+    {
+      "average_single_mrr@10": 0.6138695563695564,
+      "average_single_ndcg@10": 0.6471033252090173,
+      "best_single_mrr@10": 0.6305331705331706,
+      "best_single_ndcg@10": 0.6574570782604745,
+      "budget": 200,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.05096560846560838,
+          "ndcg_improvement_vs_average_single": 0.0483674187550146,
+          "ndcg_regret_vs_best_single": -0.03801366570355735,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.8357433055739767
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.021399063899063764,
+          "ndcg_improvement_vs_average_single": 0.0282749874241347,
+          "ndcg_regret_vs_best_single": -0.017921234372677453,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.865446291968264
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.05483211233211227,
+          "ndcg_improvement_vs_average_single": 0.056344643033804376,
+          "ndcg_regret_vs_best_single": -0.04599088998234713,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.22097676822002
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.05752238502238505,
+          "ndcg_improvement_vs_average_single": 0.05612919867801991,
+          "ndcg_regret_vs_best_single": -0.04577544562656266,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 3.2105726010202744
+        }
+      },
+      "seed": 109
+    },
+    {
+      "average_single_mrr@10": 0.6249023199023199,
+      "average_single_ndcg@10": 0.658681479638533,
+      "best_single_mrr@10": 0.6426048026048026,
+      "best_single_ndcg@10": 0.673843206476677,
+      "budget": 200,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.06243182743182729,
+          "ndcg_improvement_vs_average_single": 0.05805318095698153,
+          "ndcg_regret_vs_best_single": -0.042891454118837546,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.4144646772995233
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03621489621489615,
+          "ndcg_improvement_vs_average_single": 0.04238704931612902,
+          "ndcg_regret_vs_best_single": -0.027225322477985037,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.8978305297484805
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.05966015466015473,
+          "ndcg_improvement_vs_average_single": 0.05929224567304936,
+          "ndcg_regret_vs_best_single": -0.044130518834905375,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.455326273386012
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.06753561253561247,
+          "ndcg_improvement_vs_average_single": 0.06503133957403995,
+          "ndcg_regret_vs_best_single": -0.04986961273589596,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.64458881459445
+        }
+      },
+      "seed": 149
+    },
+    {
+      "average_single_mrr@10": 0.6312586487586487,
+      "average_single_ndcg@10": 0.6679657916092325,
+      "best_single_mrr@10": 0.6620492470492471,
+      "best_single_ndcg@10": 0.6889792845861449,
+      "budget": 200,
+      "dataset": "scifact",
+      "fusion": {
+        "minmax_fusion": {
+          "mrr_improvement_vs_average_single": 0.07069088319088335,
+          "ndcg_improvement_vs_average_single": 0.062260183275814174,
+          "ndcg_regret_vs_best_single": -0.04124669029890182,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9814334614483107
+        },
+        "rrf": {
+          "mrr_improvement_vs_average_single": 0.03840964590964602,
+          "ndcg_improvement_vs_average_single": 0.03958162981104418,
+          "ndcg_regret_vs_best_single": -0.018568136834131832,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.441814620123668
+        },
+        "validation_weighted_fusion": {
+          "mrr_improvement_vs_average_single": 0.06125457875457896,
+          "ndcg_improvement_vs_average_single": 0.061147738752348024,
+          "ndcg_regret_vs_best_single": -0.04013424577543567,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 1.9549636945064606
+        },
+        "zscore_fusion": {
+          "mrr_improvement_vs_average_single": 0.07231888481888482,
+          "ndcg_improvement_vs_average_single": 0.06431463715233932,
+          "ndcg_regret_vs_best_single": -0.043301144175426964,
+          "reduces_average_single_regret": true,
+          "worst_case_regret_reduction": 2.0303176207544857
+        }
+      },
+      "seed": 181
+    }
+  ],
+  "condition1_methods": [
+    "rrf",
+    "zscore_fusion",
+    "minmax_fusion",
+    "validation_weighted_fusion"
+  ],
+  "condition2_methods": [
+    "validation_weighted_fusion",
+    "rrf"
+  ],
+  "criteria": {
+    "fusion_reduces_average_regret_majority": true,
+    "no_systematic_severe_degradation": true,
+    "rrf_or_validation_weighted_supports_two_datasets": true
+  },
+  "definitions": {
+    "average_single_selection": "mean of BM25 and dense metrics in the same dataset/budget/seed cell",
+    "best_single_retriever": "max of BM25 and dense nDCG@10 in the same dataset/budget/seed cell",
+    "validation_weighted_fusion": "dense weight selected on validation queries only, evaluated on held-out test queries"
+  },
+  "failures": [],
+  "method_cell_count": 672,
+  "method_dataset_summary": {
+    "rrf": {
+      "arguana": {
+        "mean_mrr_improvement_vs_average_single": 0.021619579042740412,
+        "mean_ndcg_improvement_vs_average_single": 0.028574702605279532,
+        "mean_ndcg_regret_vs_best_single": -0.017139773432848095,
+        "mean_worst_case_regret_reduction": 1.7733322787646326
+      },
+      "fiqa": {
+        "mean_mrr_improvement_vs_average_single": 0.05422073025568104,
+        "mean_ndcg_improvement_vs_average_single": 0.04967908549414506,
+        "mean_ndcg_regret_vs_best_single": 0.01555634711638955,
+        "mean_worst_case_regret_reduction": 0.8810269550576939
+      },
+      "nfcorpus": {
+        "mean_mrr_improvement_vs_average_single": 0.03439646096533849,
+        "mean_ndcg_improvement_vs_average_single": 0.02989483250705053,
+        "mean_ndcg_regret_vs_best_single": -0.024949455155052293,
+        "mean_worst_case_regret_reduction": 3.8057076896874418
+      },
+      "scifact": {
+        "mean_mrr_improvement_vs_average_single": 0.030329452293738013,
+        "mean_ndcg_improvement_vs_average_single": 0.0356039878644914,
+        "mean_ndcg_regret_vs_best_single": -0.022900672737845126,
+        "mean_worst_case_regret_reduction": 2.1701548175272056
+      }
+    },
+    "validation_weighted_fusion": {
+      "arguana": {
+        "mean_mrr_improvement_vs_average_single": 0.026251070314697412,
+        "mean_ndcg_improvement_vs_average_single": 0.03395290794973581,
+        "mean_ndcg_regret_vs_best_single": -0.022517978777304364,
+        "mean_worst_case_regret_reduction": 2.0055706420989865
+      },
+      "fiqa": {
+        "mean_mrr_improvement_vs_average_single": 0.10736170358879893,
+        "mean_ndcg_improvement_vs_average_single": 0.09218109593744021,
+        "mean_ndcg_regret_vs_best_single": -0.026945663326905605,
+        "mean_worst_case_regret_reduction": 1.2070886933191542
+      },
+      "nfcorpus": {
+        "mean_mrr_improvement_vs_average_single": 0.03326442878738795,
+        "mean_ndcg_improvement_vs_average_single": 0.026636623663185994,
+        "mean_ndcg_regret_vs_best_single": -0.021691246311187757,
+        "mean_worst_case_regret_reduction": 3.4478241401224756
+      },
+      "scifact": {
+        "mean_mrr_improvement_vs_average_single": 0.053482833304261894,
+        "mean_ndcg_improvement_vs_average_single": 0.052147790427247535,
+        "mean_ndcg_regret_vs_best_single": -0.03944447530060126,
+        "mean_worst_case_regret_reduction": 2.960634297799063
+      }
+    }
+  },
+  "method_reduces_average_regret_cells": {
+    "minmax_fusion": 112,
+    "rrf": 112,
+    "validation_weighted_fusion": 112,
+    "zscore_fusion": 112
+  },
+  "pass": true,
+  "selected_gate_method": "validation_weighted_fusion",
+  "severe_degradation_datasets": [],
+  "total_cells": 112
+}
