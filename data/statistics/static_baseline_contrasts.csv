@@ -1,0 +1,3 @@
+method_label,baseline_label,metric,paired_unit,n_units,mean_delta,median_delta,ci95_low,ci95_high,wilcoxon_statistic,p_value_raw,cohen_dz,positive_units,negative_units,zero_units,method,baseline,p_value_holm
+Validation-weighted fusion,Min-max fusion,ndcg@10,dataset-budget-seed,112,0.008206349790813089,0.0005068408396525503,0.005287456289680666,0.01130243534660113,2195.0,0.004906170956256722,0.4855883914542755,62,50,0,validation_weighted_fusion,minmax_fusion,0.004906170956256722
+Validation-weighted fusion,Min-max fusion,mrr@10,dataset-budget-seed,112,0.01061389137873554,0.0007525006399869139,0.007083145817811249,0.014395355424709965,2047.0,0.0011836394092444799,0.5125084248428535,65,47,0,validation_weighted_fusion,minmax_fusion,0.0023672788184889598

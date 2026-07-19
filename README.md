@@ -12,10 +12,11 @@ guide score fusion between BM25 and a compact dense retriever well enough to
 reduce the risk of choosing the weaker single retriever in advance.
 
 The released evidence covers 672 formal evaluation cells: 4 public retrieval
-datasets, 4 candidate budgets, 6 retrieval or fusion methods, and 7 random
-seeds. The paired statistical analysis uses 112 dataset-budget-seed units and
-compares fusion methods against BM25, dense retrieval, the average single
-retriever, and the best single retriever.
+datasets, 4 per-retriever top-K candidate budgets, 6 retrieval or fusion
+methods, and 7 random seeds. The paired statistical analysis uses 112
+dataset-budget-seed units and compares fusion methods against BM25, dense
+retrieval, the average single retriever, the best single retriever, and the
+strongest static score-normalized baseline.
 
 ## Repository Structure
 
@@ -40,7 +41,7 @@ retriever, and the best single retriever.
 │   ├── formal_gate.json                       # Regret-reduction gate details
 │   ├── phase4_analysis_report.json            # Phase 4 statistical report
 │   ├── aggregates/                            # Method-level aggregate CSV files
-│   └── statistics/                            # Planned contrasts and Friedman tests
+│   └── statistics/                            # Planned/static contrasts and Friedman tests
 └── figures/
     ├── dataset_wise_ranking_quality.png       # Dataset-wise ranking quality
     ├── fusion_weight_and_budget_behavior.png  # Validation-weight and budget behavior
@@ -105,12 +106,18 @@ Dataset sizes in the formal run:
 - Validation-weighted fusion improved over the average single-retriever
   comparator by +0.0551 MRR@10, with 95% bootstrap CI [0.0493, 0.0611] and
   Holm-adjusted p = 6.55e-19.
+- Validation-weighted fusion also improved over min-max fusion by +0.0082
+  nDCG@10, with 95% bootstrap CI [0.0053, 0.0113] and Holm-adjusted p = 0.0049.
+- Validation-weighted fusion improved over min-max fusion by +0.0106 MRR@10,
+  with 95% bootstrap CI [0.0071, 0.0144] and Holm-adjusted p = 0.0024.
 - Positive dataset support for the selected nDCG@10 delta exceeded the
   prespecified threshold on 4 out of 4 datasets.
 
 These results are bounded to the tested datasets, budgets, seeds, retrievers,
 and fusion rules. They support a controlled validation-guided fusion result, not
-a new retriever architecture or training algorithm.
+a new retriever architecture or training algorithm. The static-baseline margin
+is modest and should be interpreted as a bounded top-rank quality improvement,
+not as a general dominance claim.
 
 ## Requirements
 
@@ -140,7 +147,7 @@ seed. The core columns are:
 | Column | Meaning |
 |---|---|
 | `dataset` | Public retrieval dataset name |
-| `budget` | Candidate depth used by the method |
+| `budget` | Per-query top-K candidate depth retained from each retriever before fusion and evaluation |
 | `method` | Retrieval or fusion method |
 | `seed` | Validation/test split seed |
 | `ndcg@10`, `mrr@10`, `recall@100` | Held-out test metrics |

@@ -25,6 +25,12 @@ EXPECTED = {
     "ndcg_delta": 0.05122960449440239,
     "mrr_delta": 0.055090008998786556,
     "holm_p": 6.55211033727735e-19,
+    "ndcg_delta_vs_minmax": 0.008206349790813089,
+    "mrr_delta_vs_minmax": 0.01061389137873554,
+    "ndcg_holm_p_vs_minmax": 0.004906170956256722,
+    "mrr_holm_p_vs_minmax": 0.0023672788184889598,
+    "ndcg_dz_vs_minmax": 0.4855883914542755,
+    "mrr_dz_vs_minmax": 0.5125084248428535,
 }
 
 
@@ -46,6 +52,12 @@ def summarize(data_dir: Path) -> dict[str, object]:
     contribution = phase4["contribution_gate"]
     ndcg = contribution["ndcg_average_single_contrast"]
     mrr = contribution["mrr_average_single_contrast"]
+    static_contrasts = {
+        row["metric"]: row
+        for row in _read_csv(data_dir / "statistics" / "static_baseline_contrasts.csv")
+    }
+    ndcg_static = static_contrasts["ndcg@10"]
+    mrr_static = static_contrasts["mrr@10"]
 
     payload = {
         "formal_rows": len(rows),
@@ -68,6 +80,14 @@ def summarize(data_dir: Path) -> dict[str, object]:
         "mrr_delta_vs_average_single": mrr["mean_delta"],
         "mrr_ci95": [mrr["ci95_low"], mrr["ci95_high"]],
         "holm_p": ndcg["p_value_holm"],
+        "ndcg_delta_vs_minmax_fusion": float(ndcg_static["mean_delta"]),
+        "ndcg_ci95_vs_minmax_fusion": [float(ndcg_static["ci95_low"]), float(ndcg_static["ci95_high"])],
+        "ndcg_holm_p_vs_minmax_fusion": float(ndcg_static["p_value_holm"]),
+        "ndcg_cohen_dz_vs_minmax_fusion": float(ndcg_static["cohen_dz"]),
+        "mrr_delta_vs_minmax_fusion": float(mrr_static["mean_delta"]),
+        "mrr_ci95_vs_minmax_fusion": [float(mrr_static["ci95_low"]), float(mrr_static["ci95_high"])],
+        "mrr_holm_p_vs_minmax_fusion": float(mrr_static["p_value_holm"]),
+        "mrr_cohen_dz_vs_minmax_fusion": float(mrr_static["cohen_dz"]),
     }
     return payload
 
@@ -100,6 +120,16 @@ def validate(summary: dict[str, object]) -> None:
     if summary["positive_dataset_count"] != 4:
         raise AssertionError(summary["positive_dataset_count"])
     for key, expected in [("ndcg_delta_vs_average_single", EXPECTED["ndcg_delta"]), ("mrr_delta_vs_average_single", EXPECTED["mrr_delta"]), ("holm_p", EXPECTED["holm_p"])]:
+        if abs(float(summary[key]) - expected) > 1e-12:
+            raise AssertionError((key, summary[key], expected))
+    for key, expected in [
+        ("ndcg_delta_vs_minmax_fusion", EXPECTED["ndcg_delta_vs_minmax"]),
+        ("mrr_delta_vs_minmax_fusion", EXPECTED["mrr_delta_vs_minmax"]),
+        ("ndcg_holm_p_vs_minmax_fusion", EXPECTED["ndcg_holm_p_vs_minmax"]),
+        ("mrr_holm_p_vs_minmax_fusion", EXPECTED["mrr_holm_p_vs_minmax"]),
+        ("ndcg_cohen_dz_vs_minmax_fusion", EXPECTED["ndcg_dz_vs_minmax"]),
+        ("mrr_cohen_dz_vs_minmax_fusion", EXPECTED["mrr_dz_vs_minmax"]),
+    ]:
         if abs(float(summary[key]) - expected) > 1e-12:
             raise AssertionError((key, summary[key], expected))
 

@@ -16,6 +16,7 @@ METHOD_ORDER = ["bm25", "dense", "rrf", "zscore_fusion", "minmax_fusion", "valid
 FUSION_METHODS = ["rrf", "zscore_fusion", "minmax_fusion", "validation_weighted_fusion"]
 METRICS = ["ndcg@10", "mrr@10", "recall@100"]
 UNIT_COLS = ["dataset", "budget", "seed"]
+STATIC_BASELINE_CONTRASTS = [("validation_weighted_fusion", "minmax_fusion")]
 METHOD_LABELS = {
     "bm25": "BM25",
     "dense": "Dense",
@@ -24,6 +25,45 @@ METHOD_LABELS = {
     "minmax_fusion": "Min-max fusion",
     "validation_weighted_fusion": "Validation-weighted fusion",
 }
+
+
+def contrast_record(
+    method_label: str,
+    baseline_label: str,
+    metric: str,
+    deltas: np.ndarray,
+    *,
+    stats_module: Any | None,
+) -> dict[str, Any]:
+    ci_low, ci_high = bootstrap_ci(deltas)
+    p_value = None
+    statistic = None
+    if stats_module is not None and len(deltas) >= 2:
+        if np.allclose(deltas, 0.0):
+            p_value = 1.0
+            statistic = 0.0
+        else:
+            result = stats_module.wilcoxon(deltas, zero_method="wilcox", alternative="two-sided")
+            p_value = float(result.pvalue)
+            statistic = float(result.statistic)
+    std_delta = float(np.nanstd(deltas, ddof=1)) if len(deltas) > 1 else float("nan")
+    return {
+        "method_label": method_label,
+        "baseline_label": baseline_label,
+        "metric": metric,
+        "paired_unit": "dataset-budget-seed",
+        "n_units": int(len(deltas)),
+        "mean_delta": float(np.nanmean(deltas)) if len(deltas) else float("nan"),
+        "median_delta": float(np.nanmedian(deltas)) if len(deltas) else float("nan"),
+        "ci95_low": ci_low,
+        "ci95_high": ci_high,
+        "wilcoxon_statistic": statistic,
+        "p_value_raw": p_value,
+        "cohen_dz": float(np.nanmean(deltas) / std_delta) if std_delta and not math.isnan(std_delta) else None,
+        "positive_units": int(np.sum(deltas > 0.0)) if len(deltas) else 0,
+        "negative_units": int(np.sum(deltas < 0.0)) if len(deltas) else 0,
+        "zero_units": int(np.sum(np.isclose(deltas, 0.0))) if len(deltas) else 0,
+    }
 
 
 def _json_safe(value: Any) -> Any:
@@ -207,6 +247,43 @@ def planned_contrasts(df: pd.DataFrame, output_dir: Path) -> tuple[pd.DataFrame,
     path = stats_dir / "planned_contrasts.csv"
     contrast_df.to_csv(path, index=False)
     return contrast_df, {"planned_contrasts.csv": str(path)}
+
+
+def static_baseline_contrasts(df: pd.DataFrame, output_dir: Path) -> tuple[pd.DataFrame, dict[str, str]]:
+    stats_dir = output_dir / "statistics"
+    stats_dir.mkdir(parents=True, exist_ok=True)
+    indexed = {method: group.set_index(UNIT_COLS) for method, group in df.groupby("method")}
+    try:
+        from scipy import stats
+    except Exception:
+        stats = None
+
+    records: list[dict[str, Any]] = []
+    for method, baseline in STATIC_BASELINE_CONTRASTS:
+        if method not in indexed or baseline not in indexed:
+            continue
+        common = indexed[method].index.intersection(indexed[baseline].index)
+        for metric in ["ndcg@10", "mrr@10"]:
+            deltas = (
+                indexed[method].loc[common, metric].astype(float)
+                - indexed[baseline].loc[common, metric].astype(float)
+            ).to_numpy(dtype=float)
+            record = contrast_record(
+                METHOD_LABELS[method],
+                METHOD_LABELS[baseline],
+                metric,
+                deltas,
+                stats_module=stats,
+            )
+            record.update({"method": method, "baseline": baseline})
+            records.append(record)
+
+    contrast_df = pd.DataFrame(records)
+    if not contrast_df.empty:
+        contrast_df["p_value_holm"] = holm_adjust(contrast_df["p_value_raw"].tolist())
+    path = stats_dir / "static_baseline_contrasts.csv"
+    contrast_df.to_csv(path, index=False)
+    return contrast_df, {"static_baseline_contrasts.csv": str(path)}
 
 
 def friedman_tests(df: pd.DataFrame, output_dir: Path) -> tuple[pd.DataFrame, dict[str, str]]:
@@ -519,8 +596,9 @@ def main() -> int:
     enriched = add_baselines(df)
     aggregate_files = aggregate_outputs(enriched, output_dir)
     contrast_df, contrast_files = planned_contrasts(enriched, output_dir)
+    static_contrast_df, static_contrast_files = static_baseline_contrasts(enriched, output_dir)
     friedman_df, friedman_files = friedman_tests(enriched, output_dir)
-    stat_files = {**contrast_files, **friedman_files}
+    stat_files = {**contrast_files, **static_contrast_files, **friedman_files}
     table_files = write_tables(enriched, contrast_df, output_dir)
     figure_files = make_figures(enriched, Path(args.figures_dir))
     gate = contribution_gate(enriched, contrast_df, formal_summary)
@@ -533,6 +611,7 @@ def main() -> int:
         "table_files": table_files,
         "figure_files": figure_files,
         "contribution_gate": gate,
+        "static_baseline_contrasts": static_contrast_df.to_dict(orient="records"),
         "friedman_tests": friedman_df.to_dict(orient="records"),
         "report_md": str(report_path),
     }
