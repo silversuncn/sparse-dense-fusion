@@ -2,7 +2,7 @@
 
 > **Validation-Guided Sparse-Dense Score Fusion for Lightweight Neural Retrieval**
 >
-> Yaowen Sun
+> Yaowen Sun, Shaolei Zhao, Hai Fu
 
 ## Overview
 
@@ -169,7 +169,7 @@ seed. The core columns are:
 ```bibtex
 @article{sun2026validation_guided_sparse_dense_fusion,
   title = {Validation-Guided Sparse-Dense Score Fusion for Lightweight Neural Retrieval},
-  author = {Sun, Yaowen},
+  author = {Sun, Yaowen and Zhao, Shaolei and Fu, Hai},
   year = {2026}
 }
 ```
