@@ -511,9 +511,9 @@ def contribution_gate(df: pd.DataFrame, contrast_df: pd.DataFrame, formal_summar
             "bootstrap_ci_supports_positive_delta": ndcg_supported or mrr_supported,
             "holm_corrected_support": p_supported,
         },
-        "recommendation": "Manager may decide whether to authorize Phase 5 writing; Phase 5 was not started."
+        "recommendation": "The evidence is sufficient for a separate manuscript-drafting decision; drafting was not started by this analysis script."
         if ready
-        else "Run a strengthened matrix before Phase 5, or get explicit Manager decision to proceed with weaker descriptive evidence.",
+        else "Run a strengthened matrix before manuscript drafting, or clearly document why weaker descriptive evidence is sufficient.",
     }
 
 
@@ -567,7 +567,7 @@ def write_report(
             f"- LaTeX tables: `{len(table_files)}`",
             f"- figures: `{len(figure_files)}` stems, PNG and PDF variants",
             "",
-            "Phase 5 writing was not started.",
+            "Manuscript drafting was not started by this analysis script.",
             "",
         ]
     )
