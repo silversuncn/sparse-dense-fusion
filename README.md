@@ -1,6 +1,6 @@
-# Validation-Guided Sparse-Dense Score Fusion for Lightweight Neural Retrieval
+# Validation-Guided Sparse-Dense Fusion for Lightweight Neural Retrieval
 
-> **Validation-Guided Sparse-Dense Score Fusion for Lightweight Neural Retrieval**
+> **Validation-Guided Sparse-Dense Fusion for Lightweight Neural Retrieval**
 >
 > Yaowen Sun, Shaolei Zhao, Hai Fu
 
@@ -43,6 +43,8 @@ strongest static score-normalized baseline.
 │   ├── aggregates/                            # Method-level aggregate CSV files
 │   └── statistics/                            # Planned/static contrasts and Friedman tests
 └── figures/
+    ├── sparse_dense_fusion_pipeline.png       # Conceptual: fusion pipeline overview
+    ├── validation_weight_selection.png        # Conceptual: weight selection process
     ├── dataset_wise_ranking_quality.png       # Dataset-wise ranking quality
     ├── fusion_weight_and_budget_behavior.png  # Validation-weight and budget behavior
     ├── worst_case_regret_reduction_heatmap.png # Regret-reduction heatmap
@@ -156,6 +158,10 @@ seed. The core columns are:
 
 ## Figures
 
+![Sparse-dense fusion pipeline](figures/sparse_dense_fusion_pipeline.png)
+
+![Validation-guided weight selection](figures/validation_weight_selection.png)
+
 ![Dataset-wise ranking quality](figures/dataset_wise_ranking_quality.png)
 
 ![Fusion weight and budget behavior](figures/fusion_weight_and_budget_behavior.png)
@@ -168,7 +174,7 @@ seed. The core columns are:
 
 ```bibtex
 @article{sun2026validation_guided_sparse_dense_fusion,
-  title = {Validation-Guided Sparse-Dense Score Fusion for Lightweight Neural Retrieval},
+  title = {Validation-Guided Sparse-Dense Fusion for Lightweight Neural Retrieval},
   author = {Sun, Yaowen and Zhao, Shaolei and Fu, Hai},
   year = {2026}
 }
